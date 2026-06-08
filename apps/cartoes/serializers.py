@@ -18,6 +18,12 @@ class CartaoSerializer(serializers.ModelSerializer):
 
 
 class FaturaSerializer(serializers.ModelSerializer):
+    # Total derivado **ao vivo** da composição — não o cache `Fatura.total`, que
+    # só é atualizado em `composicao`/`pagar` e fica defasado após criar gasto,
+    # parcela ou fixo no cartão (a lista de cartões mostraria limite intacto).
+    # Mesma estratégia do dashboard (`f.composicao()["total"]`).
+    total = serializers.SerializerMethodField()
+
     class Meta:
         model = Fatura
         fields = [
@@ -30,7 +36,18 @@ class FaturaSerializer(serializers.ModelSerializer):
             "valor_pago",
         ]
         # Estrutura gerada/derivada pelo sistema; o cliente só paga (ver ação).
-        read_only_fields = fields
+        read_only_fields = [
+            "id",
+            "cartao",
+            "mes_referencia",
+            "status",
+            "data_pagamento",
+            "valor_pago",
+        ]
+
+    def get_total(self, fatura):
+        # str(Decimal) preserva o contrato (DecimalField já serializava string).
+        return str(fatura.composicao()["total"])
 
 
 class PagamentoFaturaSerializer(serializers.Serializer):
