@@ -1,0 +1,28 @@
+# Ambiente / segredos
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Banco local
+db.sqlite3
+db.sqlite3-journal
+
+# Estáticos coletados
+/staticfiles/
+/static/
+
+# Ferramentas / editores
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
