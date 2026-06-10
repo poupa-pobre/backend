@@ -4,13 +4,53 @@ from apps.cartoes.models import Cartao
 from apps.categorias.models import Categoria, Subcategoria, Tag
 from apps.vinculos.models import Vinculo
 
-from .models import Gasto
+from .models import CompraDetalhada, Gasto, ItemCompra
+
+
+class ItemCompraSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ItemCompra
+        fields = [
+            "id",
+            "nome",
+            "codigo",
+            "quantidade",
+            "unidade",
+            "valor_unitario",
+            "valor",
+            "categoria",
+            "identificado",
+        ]
+        read_only_fields = ["id"]
+
+
+class CompraDetalhadaSerializer(serializers.ModelSerializer):
+    itens = ItemCompraSerializer(many=True)
+
+    class Meta:
+        model = CompraDetalhada
+        fields = ["estabelecimento", "origem", "url_nfce", "itens"]
+
+    def validate_itens(self, itens):
+        if not itens:
+            raise serializers.ValidationError("Informe ao menos um item.")
+        return itens
+
+    def get_attribute(self, instance):
+        # Na leitura `instance` é o Gasto; o OneToOne reverso ausente levanta
+        # DoesNotExist — devolvemos None para o campo virar `null` no JSON.
+        try:
+            return super().get_attribute(instance)
+        except CompraDetalhada.DoesNotExist:
+            return None
 
 
 class GastoSerializer(serializers.ModelSerializer):
     tags = serializers.PrimaryKeyRelatedField(
         many=True, required=False, queryset=Tag.objects.all()
     )
+    # Detalhamento por item (RN-023): escrita aninhada; leitura no GET do gasto.
+    compra_detalhada = CompraDetalhadaSerializer(required=False)
 
     class Meta:
         model = Gasto
@@ -30,6 +70,7 @@ class GastoSerializer(serializers.ModelSerializer):
             "observacao",
             "origem",
             "tags",
+            "compra_detalhada",
             "mes_referencia",
         ]
         # mes_referencia é derivado (competência); o cliente não o envia.
@@ -133,19 +174,46 @@ class GastoSerializer(serializers.ModelSerializer):
                 {"valor_dono": "valor_dono + valor_vinculado deve ser igual ao valor."}
             )
 
-    # --- Persistência (M:N de tags) ---
+    def validate_compra_detalhada(self, compra):
+        """Itens só podem apontar para categorias ativas do próprio dono."""
+        usuario_id = self._usuario().id
+        for item in compra.get("itens", []):
+            categoria = item.get("categoria")
+            if categoria is not None and (
+                categoria.usuario_id != usuario_id or not categoria.ativa
+            ):
+                raise serializers.ValidationError("Categoria do item não encontrada.")
+        return compra
+
+    # --- Persistência (M:N de tags + detalhamento aninhado) ---
+
+    def _salvar_compra(self, gasto, compra_data):
+        """Cria a `CompraDetalhada` + `ItemCompra` do gasto (substitui se já existe)."""
+        itens = compra_data.pop("itens", [])
+        CompraDetalhada.objects.filter(gasto=gasto).delete()
+        compra = CompraDetalhada.objects.create(gasto=gasto, **compra_data)
+        ItemCompra.objects.bulk_create(
+            [ItemCompra(compra=compra, **item) for item in itens]
+        )
+        return compra
 
     def create(self, validated_data):
         tags = validated_data.pop("tags", [])
+        compra_data = validated_data.pop("compra_detalhada", None)
         gasto = Gasto.objects.create(usuario=self._usuario(), **validated_data)
         gasto.tags.set(tags)
+        if compra_data is not None:
+            self._salvar_compra(gasto, compra_data)
         return gasto
 
     def update(self, instance, validated_data):
         tags = validated_data.pop("tags", None)
+        compra_data = validated_data.pop("compra_detalhada", None)
         for campo, valor in validated_data.items():
             setattr(instance, campo, valor)
         instance.save()
         if tags is not None:
             instance.tags.set(tags)
+        if compra_data is not None:
+            self._salvar_compra(instance, compra_data)
         return instance

@@ -1,12 +1,27 @@
 from django.contrib import admin
 
-from .models import Gasto, GastoTag
+from .models import CompraDetalhada, Gasto, GastoTag, ItemCompra
 
 
 class GastoTagInline(admin.TabularInline):
     model = GastoTag
     extra = 0
     raw_id_fields = ["tag"]
+
+
+class ItemCompraInline(admin.TabularInline):
+    model = ItemCompra
+    extra = 0
+    raw_id_fields = ["categoria"]
+
+
+@admin.register(CompraDetalhada)
+class CompraDetalhadaAdmin(admin.ModelAdmin):
+    list_display = ["gasto", "estabelecimento", "origem"]
+    list_filter = ["origem"]
+    search_fields = ["estabelecimento", "gasto__descricao"]
+    raw_id_fields = ["gasto"]
+    inlines = [ItemCompraInline]
 
 
 @admin.register(Gasto)

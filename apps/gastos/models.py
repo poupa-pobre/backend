@@ -8,7 +8,9 @@ dia do mês da `data`. Pode ser **compartilhado** com um vínculo aceito, ratean
 `valor_dono + valor_vinculado = valor` (RN-021) — sem duplicar o item.
 
 Tags são N:M via `GastoTag`. O detalhamento por scanner (`CompraDetalhada`,
-`ItemCompra`) é da Fase 5.
+`ItemCompra`) — RF-022..025 — é o cupom escaneado/manual aninhado num `Gasto`:
+um único `Gasto` carrega a lista de itens (RN-023). O parsing do texto do OCR
+em itens vive em `parser.py` (a action `parsear-cupom` só faz preview).
 """
 
 from django.db import models
@@ -106,6 +108,72 @@ class Gasto(OwnedModel):
         # Garante a fatura do mês para a composição do cartão (Fase 3).
         if self.forma_pagamento == self.FormaPagamento.CREDITO and self.cartao_id:
             self.cartao.fatura_do_mes(self.data)
+
+
+class CompraDetalhada(models.Model):
+    """Detalhamento de um `Gasto` em itens (RF-022/023). 1:1 com o gasto: o gasto
+    guarda o total e a categoria geral; aqui ficam o estabelecimento, a origem
+    (manual/QR/OCR) e a `url_nfce` da identidade da nota (RN-024)."""
+
+    gasto = models.OneToOneField(
+        Gasto,
+        on_delete=models.CASCADE,
+        related_name="compra_detalhada",
+        verbose_name="gasto",
+    )
+    estabelecimento = models.CharField(
+        "estabelecimento", max_length=120, null=True, blank=True
+    )
+    origem = models.CharField(
+        "origem", max_length=10, choices=Gasto.Origem.choices, default=Gasto.Origem.MANUAL
+    )
+    url_nfce = models.URLField("URL da NFC-e", max_length=500, null=True, blank=True)
+
+    class Meta:
+        verbose_name = "compra detalhada"
+        verbose_name_plural = "compras detalhadas"
+
+    def __str__(self):
+        return f"Compra #{self.gasto_id} — {self.estabelecimento or 'sem nome'}"
+
+
+class ItemCompra(models.Model):
+    """Item de uma `CompraDetalhada`. `identificado=False` marca o que o OCR não
+    leu com confiança, para a pessoa revisar antes de salvar."""
+
+    compra = models.ForeignKey(
+        CompraDetalhada,
+        on_delete=models.CASCADE,
+        related_name="itens",
+        verbose_name="compra",
+    )
+    nome = models.CharField("nome", max_length=120)
+    codigo = models.CharField("código", max_length=40, null=True, blank=True)
+    quantidade = models.DecimalField(
+        "quantidade", max_digits=10, decimal_places=3, null=True, blank=True
+    )
+    unidade = models.CharField("unidade", max_length=10, null=True, blank=True)
+    valor_unitario = models.DecimalField(
+        "valor unitário", max_digits=12, decimal_places=2, null=True, blank=True
+    )
+    valor = models.DecimalField("valor", max_digits=12, decimal_places=2)
+    categoria = models.ForeignKey(
+        "categorias.Categoria",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="itens_compra",
+        verbose_name="categoria",
+    )
+    identificado = models.BooleanField("identificado", default=True)
+
+    class Meta:
+        verbose_name = "item de compra"
+        verbose_name_plural = "itens de compra"
+        ordering = ["id"]
+
+    def __str__(self):
+        return f"{self.nome} — R$ {self.valor}"
 
 
 class GastoTag(models.Model):

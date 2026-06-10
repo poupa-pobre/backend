@@ -10,7 +10,8 @@ from apps.cartoes.models import Cartao, Fatura
 from apps.categorias.models import Categoria, Subcategoria, Tag
 from apps.vinculos.models import Vinculo
 
-from .models import Gasto
+from .models import CompraDetalhada, Gasto, ItemCompra
+from .parser import parsear_cupom
 
 Usuario = get_user_model()
 
@@ -258,3 +259,128 @@ class GastoCompartilhadoTest(APITestCase):
         self.assertIsNone(resp.data["vinculo"])
         self.assertIsNone(resp.data["valor_dono"])
         self.assertIsNone(resp.data["valor_vinculado"])
+
+
+class ParserCupomTest(APITestCase):
+    """Parser do texto do OCR em itens (RF-024/025) — sem tocar no banco."""
+
+    def test_formato_rico_qtd_x_unit(self):
+        texto = (
+            "001 7891234567890 ARROZ 5KG  1 UN x 22,90  22,90\n"
+            "002 LEITE 1L  3 x 4,99  14,97\n"
+            "VALOR TOTAL R$ 37,87"
+        )
+        r = parsear_cupom(texto_ocr=texto)
+        self.assertEqual(len(r["itens"]), 2)
+        arroz = r["itens"][0]
+        self.assertEqual(arroz["codigo"], "7891234567890")  # pega o EAN, não o seq
+        self.assertEqual(arroz["valor"], 22.90)
+        self.assertEqual(arroz["unidade"], "UN")
+        self.assertTrue(arroz["identificado"])
+        self.assertEqual(r["total"], 37.87)
+        self.assertTrue(r["total_confere"])
+
+    def test_item_simples_vem_para_revisao(self):
+        r = parsear_cupom(texto_ocr="PAO FRANCES  3,20")
+        self.assertEqual(len(r["itens"]), 1)
+        self.assertFalse(r["itens"][0]["identificado"])  # sem qtd/unit → revisar
+
+    def test_qr_extrai_chave_e_uf(self):
+        url = "https://www.fazenda.sp.gov.br/nfce?p=35240612345678000190650010000123451000123456|2|1"
+        r = parsear_cupom(texto_ocr="", url_qr=url)
+        self.assertEqual(r["origem"], "qr")
+        self.assertEqual(r["chave"], "35240612345678000190650010000123451000123456")
+        self.assertEqual(r["uf"], "SP")
+        self.assertEqual(r["url_nfce"], url)
+
+    def test_ignora_linhas_de_rodape(self):
+        texto = "PAO  3,20\nTROCO  0,00\nFORMA PAGAMENTO CARTAO  3,20"
+        r = parsear_cupom(texto_ocr=texto)
+        nomes = [i["nome"] for i in r["itens"]]
+        self.assertIn("PAO", nomes)
+        self.assertNotIn("TROCO", nomes)
+
+
+class CompraDetalhadaTest(APITestCase):
+    """Endpoint do scanner + gravação aninhada de itens (RF-022/023/025)."""
+
+    def setUp(self):
+        self.ana = criar_usuario("ana@x.com", "Ana")
+        self.client.force_authenticate(self.ana)
+        self.categoria = criar_categoria(self.ana)
+
+    def test_parsear_cupom_action(self):
+        resp = self.client.post(
+            reverse("gastos:gasto-parsear-cupom"),
+            {"texto_ocr": "001 ARROZ 5KG  1 UN x 22,90  22,90\nVALOR TOTAL R$ 22,90"},
+            format="json",
+        )
+        self.assertEqual(resp.status_code, status.HTTP_200_OK, resp.data)
+        self.assertEqual(len(resp.data["itens"]), 1)
+        self.assertEqual(resp.data["total"], 22.90)
+
+    def test_parsear_cupom_sem_entrada_invalido(self):
+        resp = self.client.post(
+            reverse("gastos:gasto-parsear-cupom"), {}, format="json"
+        )
+        self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_cria_gasto_com_compra_detalhada(self):
+        payload = {
+            "descricao": "Mercado",
+            "valor": "37.87",
+            "data": "2026-03-05",
+            "categoria": self.categoria.id,
+            "forma_pagamento": "pix",
+            "origem": "ocr",
+            "compra_detalhada": {
+                "estabelecimento": "Mercado X",
+                "origem": "ocr",
+                "url_nfce": None,
+                "itens": [
+                    {"nome": "Arroz", "valor": "22.90", "quantidade": "1", "unidade": "UN"},
+                    {"nome": "Leite", "valor": "14.97", "quantidade": "3"},
+                ],
+            },
+        }
+        resp = self.client.post(
+            reverse("gastos:gasto-list"), payload, format="json"
+        )
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        gasto = Gasto.objects.get(id=resp.data["id"])
+        self.assertEqual(gasto.compra_detalhada.itens.count(), 2)
+        self.assertEqual(resp.data["compra_detalhada"]["estabelecimento"], "Mercado X")
+
+    def test_gasto_sem_detalhamento_retorna_null(self):
+        resp = self.client.post(
+            reverse("gastos:gasto-list"),
+            {
+                "descricao": "Café",
+                "valor": "5.00",
+                "data": "2026-03-05",
+                "categoria": self.categoria.id,
+                "forma_pagamento": "pix",
+            },
+            format="json",
+        )
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        self.assertIsNone(resp.data["compra_detalhada"])
+
+    def test_item_com_categoria_de_outro_dono_invalido(self):
+        outro = criar_usuario("bob@x.com", "Bob")
+        cat_alheia = criar_categoria(outro)
+        payload = {
+            "descricao": "Mercado",
+            "valor": "10.00",
+            "data": "2026-03-05",
+            "categoria": self.categoria.id,
+            "forma_pagamento": "pix",
+            "compra_detalhada": {
+                "origem": "manual",
+                "itens": [{"nome": "X", "valor": "10.00", "categoria": cat_alheia.id}],
+            },
+        }
+        resp = self.client.post(
+            reverse("gastos:gasto-list"), payload, format="json"
+        )
+        self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
