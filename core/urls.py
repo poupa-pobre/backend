@@ -32,4 +32,5 @@ urlpatterns = [
     path("api/", include("apps.patrimonio.urls")),
     path("api/", include("apps.dashboard.urls")),
     path("api/", include("apps.relatorios.urls")),
+    path("api/", include("apps.importacao.urls")),
 ]

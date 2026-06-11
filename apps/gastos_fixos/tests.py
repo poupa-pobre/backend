@@ -233,6 +233,34 @@ class CheckPagamentoTest(APITestCase):
         resp = self.client.post(url, {"data_pagamento": "2026-05-08"})
         self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
 
+    def test_desmarcar_reverte_o_check(self):
+        # Tipo B: paga com valor_real e depois desmarca (marcou errado).
+        mensal = self._mensal(
+            tipo=GastoFixo.Tipo.ESTIMADO, valor=None, valor_estimado=Decimal("200.00")
+        )
+        self.client.post(
+            reverse("gastos_fixos:gastofixomensal-pagar", args=[mensal.id]),
+            {"valor_real": "237.45"},
+        )
+        resp = self.client.post(
+            reverse("gastos_fixos:gastofixomensal-desmarcar", args=[mensal.id])
+        )
+        self.assertEqual(resp.status_code, status.HTTP_200_OK, resp.data)
+        # Fixo de maio/2026 (vencido hoje) → volta como atrasado, não pago.
+        self.assertEqual(resp.data["status"], "atrasado")
+        mensal.refresh_from_db()
+        self.assertNotEqual(mensal.status, GastoFixoMensal.Status.PAGO)
+        self.assertIsNone(mensal.valor_real)
+        self.assertIsNone(mensal.data_pagamento)
+        self.assertIsNone(mensal.checked_at)
+
+    def test_desmarcar_so_quando_pago(self):
+        mensal = self._mensal()  # nasce pendente
+        resp = self.client.post(
+            reverse("gastos_fixos:gastofixomensal-desmarcar", args=[mensal.id])
+        )
+        self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
+
 
 class GastoFixoCompartilhadoTest(APITestCase):
     def setUp(self):

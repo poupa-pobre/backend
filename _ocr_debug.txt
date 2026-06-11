@@ -1,0 +1,1871 @@
+
+===== url=None =====
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+O03
+IE - 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+#COD| DESCRICAO |QTD|UNIVL UNIVL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1.000UN X
+6,49
+002 789115280 1842 BISCOITO RECH RICHESTER 125G
+3.19 F
+7691152801842 BISCOITO RECH RICHESTER 125G
+1,000UN x 3,19 F
+004 7696045104147 ACHOCOLATADo EM PO ACHOCOLATI
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG x
+12,99
+QTDE, TOTAL DE ITENS
+VALOR T0TAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENT0
+TEF
+F
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None =====
+OP5-ZE065 dag- NH/eeN
+upoeyEZ9 seuuaieIse aunpjsoig eny
+anannnn
+MEDETROs E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+IE- 202138445
+#|COD|DESCRICAO| QTD| UN VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG
+0,678KG X
+FISC
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+1,000UNx
+6,49
+F
+002 7891152801842 BISCOITO RECH RICHESTER 1256
+1,000UN X
+3,19 F
+003 7891 152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN X 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+12,99 F
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None =====
+05-26065 dag- NH/N
+paeytZ9 seuuaiesey ouapsalg eny
+MEDEIROs E MAIA LTDA (LJ 03)
+CNPJ 05.846,413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO| QTD| UN VL UN|VL TOTAL
+IE - 202138445
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+6,49
+1,000UN X 6,49F
+002 7891152801842 BISCOIT0 RECH RICHESTER 1256
+1,000UNX 3,19F
+003 7891152801842 BISCOITO RECH RICHESTER 1256
+1,000UN X 3, 19
+004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT
+15,98 T20
+1,000UNX
+005 826 PAO BOMDIA FRANCES KG
+12,99
+0,678KG X
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+F
+F
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None =====
+05-ZE0 65 day - NH/e
+upse8/9 seuuaeusey ojupsald eny
+O p 34e u Jadns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+IE - 202138445
+#COD|DESCRICAO |QTD |UN|VL UN|VL TOTAL
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+001 7898908222050 BÒLACHA JUCURUTU 250G MANTEIG
+F
+1.000UN x 6,49
+002 7891152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN X 3,19 F
+003 7891152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+12,99
+0,678KG X
+F
+oo0s-90
+ODO SAVCF-E E NFC-E
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3.19
+3,19
+15,96
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url='http://nfce.set.rn.gov.br/consultarNFCe.aspx?p=24260605846413000539650070003451259007476050|2|1|10|37.66|3448443634446f474b51756945417556727833336a5156576934633d|1|1448CF2EE06222493C278836E13BD564A854CE67' =====
+CHAYE DE ACESSO
+2426 0605 8464 1300 0539 6500
+7000 3451 2590 074 6050
+Protocolo de Autorizacao:
+CONSUMID0R NAO IDENTIFICADO
+Consulta yia leitor de OR Code
+MASTERCARD
+Consuaidor: 0 TNEORH
+NFCE-e umera: 345125
+007
+Data: 10/06/2026 16
+Pratacala
+Data de auturizso
+ECF: 007 LJ:0003 10/06/2026 16:25:56
+TRIB FED. 1,58 (4,20%) FONTE: IBPT
+TRIB. EST, 3.90 10,368) FONTE: IBPT
+TRIB, TOTAL APROX,5,48 (14,56) FO
+PROCON NATAL RUA ULISSES CALDAS, 18
+CIDADE ALTA, NATALRN TEL 3232 050
+bpERADOR: ELIELBA CABRAL L DOS SANTOS
+RORIRNo.26 18:25
+
+===== url=None | linhas=4 =====
+--- texto cru ---
+
+--- reconstruido ---
+001 7898 BOLACHA 250G  6,49
+1,000UN x  6,49
+--- geometria ---
+[{"text": "001 7898 BOLACHA 250G", "x": 140.0, "y": 600.0, "h": 20.0, "w": 200.0}, {"text": "6,49", "x": 720.0, "y": 600.0, "h": 20.0, "w": 40.0}, {"text": "1,000UN x", "x": 180.0, "y": 630.0, "h": 20.0, "w": 80.0}, {"text": "6,49", "x": 400.0, "y": 630.0, "h": 20.0, "w": 40.0}]
+
+===== url=None | linhas=0 =====
+--- texto cru ---
+0P5-Z606s deg- N/eeN
+1asoy/9 seuaesN ojubpsald eny
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+IE - 202138445
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+#|COD| DESCRICAO|QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG
+6.49
+1.000UN X
+F
+6,49
+002 7891152801842 BISCOITO RECH RICHESTER 1256
+1,000UN X 3,19 F
+003 7891152801842 BISCOITO RECH RICHESTER 125G
+1,000UN X 3,19 F
+004 7896045104147 ACHOČOLATADO EM PO ACHOCOLATT
+1,000UN x 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99
+F
+ooSAT/CFEENFO
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None | linhas=0 =====
+--- texto cru ---
+O5-Z6065 deg- N/eeN
+WnegZ9 seuioieasey ouepisesg eny
+11ap e 330 uadns
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+IE - 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#COD| DESCRICAO |QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UN X
+6,49
+F
+002 7891152801842 BISCO0ITO RECH RICHESTER 125G
+1,000UN X 3,19 F
+003 7891 152801842 BIŠCOITO RECH RICHESTER 125G
+1,000UN X 3, 19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG x 12,99F
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+F
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None | linhas=0 =====
+--- texto cru ---
+Ob5-060 65 dop- NH/1eN
+uppey29'seyuaieasey oubpsoJd eng
+hFo p e u a dn s
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+IE - 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD| DESCRICAO | QTD |UNIVL UNJVL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1.000UNx 6,49 F
+6,49
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN X 3,19 F
+3,19
+003 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UNX
+F
+004 7896045104147 A
+12,99
+ACHOCOLATADO EM PO ACHOCOLAfT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+3,19
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None | linhas=0 =====
+--- texto cru ---
+0P52806S deg- NH/e3eN
+1upaeEL9 'seuuaitasey ouapsaJd eny
+anrannnna
+IE - 202138445
+MEDEIROS E MAIA LTDA (LJ 03)
+RUA SENHOR DO BONFIM, 5229
+CNPJ - 05,846.413/0005-39
+POTENGI-NATAL -
+RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMTDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+#COD| DESCRICAO|QTD|UN VL UNI VL TOTAL
+3,19
+3,19
+15,98
+8,81
+F
+3,19F
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+002 7891152801842 BIŚC0ITO RECH RICHESTER 1256
+15,98 T20
+003 7891152801842 BIŚCOITO RECH RICHESTER 1256
+004 7896045104147 ACHOCOLATADO EM PO ACH0COLATT
+12,99
+6,49
+3,19
+005 826 PAO BOMDIA FRÁNCES KG
+1.000UN X
+1.000UN X
+1.000UN x
+1,000UN X
+0,678KG x
+F
+005
+37,66
+37,66
+VALOR PAGO R$
+QTDE. TOTAL DE ITENS
+37,66
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+
+===== url=None | linhas=0 =====
+--- texto cru ---
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL-RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+IE- 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO|QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UNx
+6,49F
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+002 7891 15280 1842 BISC0ITO RECH RICHESTER 125G
+1.000UNX
+3,19
+003 7891152801842 BISCOITO RECH RICHESTER 125G
+1,000UNx 3,19F
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG x 12,99
+F
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+
+===== url=None | linhas=44 =====
+--- texto cru ---
+upao
+075-280 6S deg-
+N/eeN
+Z9 'seuuaieasen ojuapsəld eny
+op e 3e u a dn s
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+IE - 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN| VL UN|VL TOTAL
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+r FISCAL SAT/CF-EENFC
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG
+1.000UN x 6,49F
+002 7691152801842 BISCOITO RECH RICHESTER 125G
+3,19 F
+1.000UN X
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UNx 3,19F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN xX 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99F
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+075-280 6S deg-  N/eeN
+upao  Z9 'seuuaieasen ojuapsəld eny
+op e 3e u a dn s  r FISCAL SAT/CF-EENFC
+MEDEIROSE MAIA LTDA (LJ 03)  IE - 202138445
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN| VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG  6,49
+002 7691152801842 BISCOITO RECH RICHESTER 125G  1.000UN x 6,49F
+1.000UN X  3,19 F  3,19
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UNx 3,19F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN xX 15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99F  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "upao", "x": 1061.0, "y": 333.0, "h": 63.0, "w": 113.0}, {"text": "075-280 6S deg-", "x": 1242.0, "y": 247.0, "h": 73.0, "w": 371.0}, {"text": "N/eeN", "x": 1582.0, "y": 242.0, "h": 69.0, "w": 223.0}, {"text": "Z9 'seuuaieasen ojuapsəld eny", "x": 1285.0, "y": 312.0, "h": 78.0, "w": 695.0}, {"text": "op e 3e u a dn s", "x": 989.0, "y": 388.0, "h": 130.0, "w": 1122.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 890.0, "y": 1034.0, "h": 76.0, "w": 743.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 892.0, "y": 1092.0, "h": 72.0, "w": 674.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 888.0, "y": 1145.0, "h": 73.0, "w": 698.0}, {"text": "POTENGI- NATAL- RN", "x": 877.0, "y": 1198.0, "h": 72.0, "w": 557.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1085.0, "y": 1295.0, "h": 74.0, "w": 899.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1211.0, "y": 1354.0, "h": 63.0, "w": 658.0}, {"text": "IE - 202138445", "x": 1812.0, "y": 1065.0, "h": 72.0, "w": 386.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1216.0, "y": 1463.0, "h": 61.0, "w": 628.0}, {"text": "Pendente de autorizacao", "x": 1215.0, "y": 1520.0, "h": 61.0, "w": 631.0}, {"text": "#|COD|DESCRICAO |QTD|UN| VL UN|VL TOTAL", "x": 900.0, "y": 1621.0, "h": 85.0, "w": 1003.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 864.0, "y": 2275.0, "h": 61.0, "w": 573.0}, {"text": "VALOR TOTAL R$", "x": 875.0, "y": 2326.0, "h": 65.0, "w": 391.0}, {"text": "VALOR A PAGAR R$", "x": 863.0, "y": 2384.0, "h": 66.0, "w": 457.0}, {"text": "FORMA PAGAMENTO", "x": 868.0, "y": 2448.0, "h": 60.0, "w": 424.0}, {"text": "TEF", "x": 869.0, "y": 2502.0, "h": 51.0, "w": 78.0}, {"text": "r FISCAL SAT/CF-EENFC", "x": 2131.0, "y": 230.0, "h": 492.0, "w": 69.0}, {"text": "001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG", "x": 905.0, "y": 1667.0, "h": 91.0, "w": 1282.0}, {"text": "1.000UN x 6,49F", "x": 1009.0, "y": 1740.0, "h": 66.0, "w": 676.0}, {"text": "002 7691152801842 BISCOITO RECH RICHESTER 125G", "x": 890.0, "y": 1769.0, "h": 88.0, "w": 1273.0}, {"text": "3,19 F", "x": 1413.0, "y": 1834.0, "h": 58.0, "w": 275.0}, {"text": "1.000UN X", "x": 1004.0, "y": 1845.0, "h": 53.0, "w": 236.0}, {"text": "003 7891152801842 BIŚCOITO RECH RICHESTER 125G", "x": 875.0, "y": 1871.0, "h": 82.0, "w": 1297.0}, {"text": "1,000UNx 3,19F", "x": 992.0, "y": 1933.0, "h": 68.0, "w": 698.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 891.0, "y": 1976.0, "h": 80.0, "w": 1309.0}, {"text": "1,000UN xX 15,98 T20", "x": 992.0, "y": 2039.0, "h": 75.0, "w": 726.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 873.0, "y": 2096.0, "h": 70.0, "w": 818.0}, {"text": "0,678KG X 12,99F", "x": 988.0, "y": 2152.0, "h": 69.0, "w": 730.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1207.0, "y": 2617.0, "h": 58.0, "w": 670.0}, {"text": "Pendente de autorizacao", "x": 1199.0, "y": 2677.0, "h": 52.0, "w": 681.0}, {"text": "6,49", "x": 2110.0, "y": 1723.0, "h": 50.0, "w": 110.0}, {"text": "3,19", "x": 2103.0, "y": 1815.0, "h": 64.0, "w": 123.0}, {"text": "3,19", "x": 2123.0, "y": 1930.0, "h": 58.0, "w": 106.0}, {"text": "15,98", "x": 2104.0, "y": 2037.0, "h": 53.0, "w": 131.0}, {"text": "8,81", "x": 2134.0, "y": 2148.0, "h": 55.0, "w": 105.0}, {"text": "005", "x": 2170.0, "y": 2263.0, "h": 51.0, "w": 86.0}, {"text": "37,66", "x": 2111.0, "y": 2320.0, "h": 64.0, "w": 146.0}, {"text": "37,66", "x": 2113.0, "y": 2375.0, "h": 67.0, "w": 144.0}, {"text": "VALOR PAGO R$", "x": 1878.0, "y": 2436.0, "h": 69.0, "w": 379.0}, {"text": "37,66", "x": 2108.0, "y": 2492.0, "h": 61.0, "w": 151.0}]
+
+===== url=None | linhas=43 =====
+--- texto cru ---
+0P5-ZE065 deg- NH/eeN
+Wuae EL9 seuuaitasey ouapsald eny
+AonannnGa
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+IE- 202138445
+#C0D|DESCRICAO| QTD| UN VL UN|VL TOTAL
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UN x 6,49F
+002 7891152801842 BISCOITO RECH RICHESTER 1256
+3,19 F
+1,000UN X
+003 7691152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN x 3,19F
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KGX 12,99
+F
+SAT/CF-EENEC
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+6,49
+3.19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+0P5-ZE065 deg- NH/eeN
+Wuae EL9 seuuaitasey ouapsald eny
+SAT/CF-EENEC
+AonannnGa
+MEDEIROSE MAIA LTDA (LJ 03)  IE- 202138445
+CNPJ - 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+#C0D|DESCRICAO| QTD| UN VL UN|VL TOTAL  001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG  6,49
+002 7891152801842 BISCOITO RECH RICHESTER 1256  1,000UN x 6,49F  3.19
+003 7691152801842 BIŚCOITO RECH RICHESTER 125G  1,000UN X  3,19 F
+1,000UN x 3,19F  3,19
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT  1,000UN X 15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG  0,678KGX 12,99  F  8,81
+QTDE. TOTAL DE ITENS  37,66  005
+VALOR TOTAL R$  VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$  37,66
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+--- geometria ---
+[{"text": "0P5-ZE065 deg- NH/eeN", "x": 1206.0, "y": 113.0, "h": 82.0, "w": 604.0}, {"text": "Wuae EL9 seuuaitasey ouapsald eny", "x": 1019.0, "y": 181.0, "h": 100.0, "w": 983.0}, {"text": "AonannnGa", "x": 849.0, "y": 432.0, "h": 241.0, "w": 1279.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 848.0, "y": 960.0, "h": 95.0, "w": 787.0}, {"text": "CNPJ - 05,846.413/0005-39", "x": 849.0, "y": 1023.0, "h": 88.0, "w": 708.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 825.0, "y": 1079.0, "h": 94.0, "w": 761.0}, {"text": "POTENGI - NATAL- RN", "x": 830.0, "y": 1143.0, "h": 88.0, "w": 596.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1045.0, "y": 1233.0, "h": 101.0, "w": 951.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1199.0, "y": 1297.0, "h": 85.0, "w": 687.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1209.0, "y": 1416.0, "h": 79.0, "w": 654.0}, {"text": "Pendente de autorizaca0", "x": 1211.0, "y": 1475.0, "h": 78.0, "w": 653.0}, {"text": "IE- 202138445", "x": 1843.0, "y": 983.0, "h": 86.0, "w": 381.0}, {"text": "#C0D|DESCRICAO| QTD| UN VL UN|VL TOTAL", "x": 870.0, "y": 1581.0, "h": 109.0, "w": 1044.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 915.0, "y": 2261.0, "h": 84.0, "w": 553.0}, {"text": "VALOR TOTAL R$", "x": 889.0, "y": 2321.0, "h": 85.0, "w": 407.0}, {"text": "VALOR A PAGAR R$", "x": 889.0, "y": 2384.0, "h": 76.0, "w": 465.0}, {"text": "FORMA PAGAMENTO", "x": 896.0, "y": 2442.0, "h": 71.0, "w": 430.0}, {"text": "TEF", "x": 900.0, "y": 2511.0, "h": 50.0, "w": 84.0}, {"text": "001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG", "x": 873.0, "y": 1617.0, "h": 129.0, "w": 1342.0}, {"text": "1,000UN x 6,49F", "x": 1002.0, "y": 1708.0, "h": 83.0, "w": 702.0}, {"text": "002 7891152801842 BISCOITO RECH RICHESTER 1256", "x": 880.0, "y": 1728.0, "h": 123.0, "w": 1312.0}, {"text": "3,19 F", "x": 1403.0, "y": 1804.0, "h": 67.0, "w": 305.0}, {"text": "1,000UN X", "x": 1003.0, "y": 1829.0, "h": 65.0, "w": 247.0}, {"text": "003 7691152801842 BIŚCOITO RECH RICHESTER 125G", "x": 872.0, "y": 1837.0, "h": 114.0, "w": 1330.0}, {"text": "1,000UN x 3,19F", "x": 986.0, "y": 1912.0, "h": 90.0, "w": 729.0}, {"text": "004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT", "x": 890.0, "y": 1946.0, "h": 117.0, "w": 1343.0}, {"text": "1,000UN X 15,98 T20", "x": 1004.0, "y": 2024.0, "h": 88.0, "w": 743.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 882.0, "y": 2081.0, "h": 93.0, "w": 839.0}, {"text": "0,678KGX 12,99", "x": 1005.0, "y": 2147.0, "h": 79.0, "w": 573.0}, {"text": "F", "x": 1730.0, "y": 2145.0, "h": 51.0, "w": 21.0}, {"text": "SAT/CF-EENEC", "x": 2160.0, "y": 307.0, "h": 322.0, "w": 48.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1247.0, "y": 2599.0, "h": 77.0, "w": 670.0}, {"text": "Pendente de autorizaca0", "x": 1243.0, "y": 2663.0, "h": 66.0, "w": 677.0}, {"text": "6,49", "x": 2136.0, "y": 1678.0, "h": 57.0, "w": 112.0}, {"text": "3.19", "x": 2145.0, "y": 1789.0, "h": 49.0, "w": 108.0}, {"text": "3,19", "x": 2152.0, "y": 1899.0, "h": 57.0, "w": 106.0}, {"text": "15,98", "x": 2134.0, "y": 2011.0, "h": 53.0, "w": 131.0}, {"text": "8,81", "x": 2166.0, "y": 2124.0, "h": 56.0, "w": 101.0}, {"text": "005", "x": 2202.0, "y": 2239.0, "h": 53.0, "w": 84.0}, {"text": "37,66", "x": 2144.0, "y": 2289.0, "h": 67.0, "w": 145.0}, {"text": "37,66", "x": 2146.0, "y": 2351.0, "h": 63.0, "w": 145.0}, {"text": "VALOR PAGO R$", "x": 1914.0, "y": 2407.0, "h": 77.0, "w": 376.0}, {"text": "37,66", "x": 2141.0, "y": 2468.0, "h": 61.0, "w": 153.0}]
+
+===== url=None | linhas=43 =====
+--- texto cru ---
+P5-260'65 deg N/eN
+upbe EZ9 'seuuaieaseoubpistten8
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+IE - 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN|VL UN|VL TOTAL
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+T FISCAL, SAT/CF-EE NFC
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+F
+1.000UN x 6,49
+002 7891152801842 BISCOITO RECH RICHESTER 125G
+3,19 F
+1,000UN X
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+1.000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT
+15,98 T20
+1,000UN x
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+P5-260'65 deg N/eN
+upbe EZ9 'seuuaieaseoubpistten8
+T FISCAL, SAT/CF-EE NFC
+MEDEIROSE MAIA LTDA (LJ 03)  CNPJ - 05.846.413/0005-39  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG  1.000UN x 6,49  F  6,49
+002 7891152801842 BISCOITO RECH RICHESTER 125G  1,000UN X  3,19 F  3,19
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G  3,19
+1.000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT  1,000UN x  15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG  8,81
+0,678KG X 12,99
+QTDE. TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66  37,66
+VALOR A PAGAR R$  VALOR PAGO R$
+FORMA PAGAMENTO  37,66
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "P5-260'65 deg N/eN", "x": 1215.0, "y": 98.0, "h": 73.0, "w": 577.0}, {"text": "upbe EZ9 'seuuaieaseoubpistten8", "x": 1003.0, "y": 175.0, "h": 78.0, "w": 965.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 813.0, "y": 925.0, "h": 80.0, "w": 796.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 816.0, "y": 984.0, "h": 78.0, "w": 714.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 826.0, "y": 1041.0, "h": 73.0, "w": 735.0}, {"text": "POTENGI - NATAL - RN", "x": 805.0, "y": 1098.0, "h": 74.0, "w": 589.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1041.0, "y": 1194.0, "h": 84.0, "w": 933.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1172.0, "y": 1260.0, "h": 68.0, "w": 685.0}, {"text": "IE - 202138445", "x": 1794.0, "y": 958.0, "h": 73.0, "w": 395.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1182.0, "y": 1370.0, "h": 77.0, "w": 653.0}, {"text": "Pendente de autorizacao", "x": 1183.0, "y": 1430.0, "h": 70.0, "w": 654.0}, {"text": "#|COD|DESCRICAO |QTD|UN|VL UN|VL TOTAL", "x": 849.0, "y": 1540.0, "h": 93.0, "w": 1048.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 839.0, "y": 2220.0, "h": 74.0, "w": 594.0}, {"text": "VALOR TOTAL R$", "x": 838.0, "y": 2281.0, "h": 76.0, "w": 419.0}, {"text": "VALOR A PAGAR R$", "x": 839.0, "y": 2338.0, "h": 81.0, "w": 476.0}, {"text": "FORMA PAGAMENTO", "x": 843.0, "y": 2404.0, "h": 67.0, "w": 445.0}, {"text": "TEF", "x": 844.0, "y": 2471.0, "h": 53.0, "w": 87.0}, {"text": "T FISCAL, SAT/CF-EE NFC", "x": 2116.0, "y": 93.0, "h": 511.0, "w": 78.0}, {"text": "001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG", "x": 835.0, "y": 1581.0, "h": 109.0, "w": 1355.0}, {"text": "F", "x": 1655.0, "y": 1664.0, "h": 42.0, "w": 20.0}, {"text": "1.000UN x 6,49", "x": 967.0, "y": 1669.0, "h": 70.0, "w": 538.0}, {"text": "002 7891152801842 BISCOITO RECH RICHESTER 125G", "x": 841.0, "y": 1684.0, "h": 111.0, "w": 1329.0}, {"text": "3,19 F", "x": 1396.0, "y": 1752.0, "h": 74.0, "w": 286.0}, {"text": "1,000UN X", "x": 965.0, "y": 1777.0, "h": 61.0, "w": 252.0}, {"text": "003 7891152801842 BIŚCOITO RECH RICHESTER 125G", "x": 832.0, "y": 1794.0, "h": 101.0, "w": 1345.0}, {"text": "1.000UN x 3,19 F", "x": 956.0, "y": 1872.0, "h": 68.0, "w": 731.0}, {"text": "004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT", "x": 830.0, "y": 1900.0, "h": 107.0, "w": 1387.0}, {"text": "15,98 T20", "x": 1417.0, "y": 1974.0, "h": 72.0, "w": 302.0}, {"text": "1,000UN x", "x": 963.0, "y": 1994.0, "h": 61.0, "w": 267.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 836.0, "y": 2029.0, "h": 92.0, "w": 869.0}, {"text": "0,678KG X 12,99", "x": 961.0, "y": 2095.0, "h": 82.0, "w": 588.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1204.0, "y": 2563.0, "h": 74.0, "w": 692.0}, {"text": "Pendente de autorizacao", "x": 1199.0, "y": 2627.0, "h": 69.0, "w": 701.0}, {"text": "6,49", "x": 2110.0, "y": 1631.0, "h": 60.0, "w": 112.0}, {"text": "3,19", "x": 2121.0, "y": 1744.0, "h": 56.0, "w": 109.0}, {"text": "3,19", "x": 2129.0, "y": 1846.0, "h": 58.0, "w": 107.0}, {"text": "15,98", "x": 2112.0, "y": 1962.0, "h": 54.0, "w": 132.0}, {"text": "8,81", "x": 2146.0, "y": 2078.0, "h": 53.0, "w": 105.0}, {"text": "005", "x": 2184.0, "y": 2193.0, "h": 55.0, "w": 85.0}, {"text": "37,66", "x": 2125.0, "y": 2252.0, "h": 64.0, "w": 148.0}, {"text": "37,66", "x": 2128.0, "y": 2310.0, "h": 64.0, "w": 144.0}, {"text": "VALOR PAGO R$", "x": 1892.0, "y": 2370.0, "h": 72.0, "w": 385.0}, {"text": "37,66", "x": 2133.0, "y": 2427.0, "h": 65.0, "w": 147.0}]
+
+===== url=None | linhas=46 =====
+--- texto cru ---
+LOM biOb5-2E0'65 dog- NieN
+pa6Z9 'seuuaiease eapsalg eng
+ap e e u Jadn s
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL -RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN|VL UN|VL TOTAL
+IE- 202138445
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG
+1,000UN X
+6.49
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256
+3, 19 F
+1,000UN X
+003 7691152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+15,98 T20
+1,000UNx
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99
+F
+F
+FISCAL, SAT/CF-EENFC
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+LOM biOb5-2E0'65 dog- NieN
+pa6Z9 'seuuaiease eapsalg eng
+ap e e u Jadn s  FISCAL, SAT/CF-EENFC
+MEDEIROSE MAIA LTDA (LJ 03)  IE- 202138445
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL -RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG  1,000UN X  6.49  F  6,49
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256  1,000UN X  3, 19 F  3,19
+003 7691152801842 BIŚCOITO RECH RICHESTER 125G  1,000UN x 3,19 F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT  1,000UNx  15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG  0,678KG X 12,99  F  8,81
+QTDE. TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66  37,66
+VALOR A PAGAR R$  VALOR PAGO R$
+FORMA PAGAMENTO  37,66
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "LOM biOb5-2E0'65 dog- NieN", "x": 1012.0, "y": 110.0, "h": 72.0, "w": 759.0}, {"text": "pa6Z9 'seuuaiease eapsalg eng", "x": 1060.0, "y": 172.0, "h": 92.0, "w": 893.0}, {"text": "ap e e u Jadn s", "x": 916.0, "y": 250.0, "h": 145.0, "w": 1161.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 853.0, "y": 907.0, "h": 77.0, "w": 756.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 848.0, "y": 969.0, "h": 73.0, "w": 686.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 829.0, "y": 1022.0, "h": 74.0, "w": 733.0}, {"text": "POTENGI - NATAL -RN", "x": 831.0, "y": 1077.0, "h": 70.0, "w": 567.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1038.0, "y": 1170.0, "h": 84.0, "w": 920.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1184.0, "y": 1232.0, "h": 68.0, "w": 666.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1191.0, "y": 1336.0, "h": 79.0, "w": 637.0}, {"text": "Pendente de autorizacao", "x": 1192.0, "y": 1398.0, "h": 67.0, "w": 635.0}, {"text": "#|COD|DESCRICAO |QTD|UN|VL UN|VL TOTAL", "x": 870.0, "y": 1502.0, "h": 90.0, "w": 1017.0}, {"text": "IE- 202138445", "x": 1782.0, "y": 934.0, "h": 82.0, "w": 394.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 881.0, "y": 2157.0, "h": 74.0, "w": 548.0}, {"text": "VALOR TOTAL R$", "x": 855.0, "y": 2221.0, "h": 70.0, "w": 409.0}, {"text": "VALOR A PAGAR R$", "x": 856.0, "y": 2280.0, "h": 69.0, "w": 456.0}, {"text": "FORMA PAGAMENTO", "x": 858.0, "y": 2338.0, "h": 67.0, "w": 428.0}, {"text": "TEF", "x": 860.0, "y": 2401.0, "h": 53.0, "w": 86.0}, {"text": "001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG", "x": 884.0, "y": 1545.0, "h": 104.0, "w": 1290.0}, {"text": "1,000UN X", "x": 984.0, "y": 1640.0, "h": 57.0, "w": 241.0}, {"text": "6.49", "x": 1398.0, "y": 1633.0, "h": 44.0, "w": 107.0}, {"text": "002 7691152801842 BIŚCOITO RECH RICHESTER 1256", "x": 864.0, "y": 1641.0, "h": 111.0, "w": 1288.0}, {"text": "3, 19 F", "x": 1417.0, "y": 1710.0, "h": 66.0, "w": 268.0}, {"text": "1,000UN X", "x": 983.0, "y": 1735.0, "h": 56.0, "w": 240.0}, {"text": "003 7691152801842 BIŚCOITO RECH RICHESTER 125G", "x": 853.0, "y": 1750.0, "h": 97.0, "w": 1303.0}, {"text": "1,000UN x 3,19 F", "x": 994.0, "y": 1819.0, "h": 76.0, "w": 683.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 848.0, "y": 1851.0, "h": 106.0, "w": 1348.0}, {"text": "15,98 T20", "x": 1405.0, "y": 1933.0, "h": 59.0, "w": 303.0}, {"text": "1,000UNx", "x": 978.0, "y": 1944.0, "h": 56.0, "w": 247.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 857.0, "y": 1980.0, "h": 88.0, "w": 824.0}, {"text": "0,678KG X 12,99", "x": 975.0, "y": 2046.0, "h": 72.0, "w": 567.0}, {"text": "F", "x": 1650.0, "y": 1626.0, "h": 41.0, "w": 21.0}, {"text": "F", "x": 1692.0, "y": 2046.0, "h": 47.0, "w": 21.0}, {"text": "FISCAL, SAT/CF-EENFC", "x": 2108.0, "y": 128.0, "h": 457.0, "w": 55.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1214.0, "y": 2493.0, "h": 77.0, "w": 660.0}, {"text": "Pendente de autorizacao", "x": 1197.0, "y": 2556.0, "h": 62.0, "w": 680.0}, {"text": "6,49", "x": 2095.0, "y": 1597.0, "h": 52.0, "w": 111.0}, {"text": "3,19", "x": 2104.0, "y": 1702.0, "h": 55.0, "w": 107.0}, {"text": "3,19", "x": 2110.0, "y": 1810.0, "h": 58.0, "w": 105.0}, {"text": "15,98", "x": 2092.0, "y": 1916.0, "h": 53.0, "w": 129.0}, {"text": "8,81", "x": 2123.0, "y": 2028.0, "h": 54.0, "w": 103.0}, {"text": "005", "x": 2159.0, "y": 2141.0, "h": 52.0, "w": 80.0}, {"text": "37,66", "x": 2101.0, "y": 2198.0, "h": 57.0, "w": 142.0}, {"text": "37,66", "x": 2102.0, "y": 2249.0, "h": 66.0, "w": 143.0}, {"text": "VALOR PAGO R$", "x": 1872.0, "y": 2307.0, "h": 73.0, "w": 375.0}, {"text": "37,66", "x": 2106.0, "y": 2363.0, "h": 69.0, "w": 141.0}]
+
+===== url=None | linhas=44 =====
+--- texto cru ---
+OP5-26065 dag- NH/UN
+WDeC70 seuuaresejy ouepisalg eny
+iope 34e u a dn s
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL - RN
+004
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD |DESCRICAO| QTD| UN| VL UN| VL TOTAL
+IE - 202138445
+001 7898908222050 BÖLACHA JUČURUTU 250G MANTEIG
+1,000UN X 6,49 F
+6,49
+002 7691152801842 BIŠCOITO RECH RICHESTER 1256
+1,000UN X 3,19F
+003 7891152801842 BISCOITO RECH RICHESTER 125G
+1.
+68O614147 ACHOCOLATAD0 EM PO ACHOCOLATI
+3,19F.
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+12,99F
+0,678KG X
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+SCAL SAT
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+OP5-26065 dag- NH/UN
+WDeC70 seuuaresejy ouepisalg eny
+iope 34e u a dn s  SCAL SAT
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD |DESCRICAO| QTD| UN| VL UN| VL TOTAL
+001 7898908222050 BÖLACHA JUČURUTU 250G MANTEIG
+1,000UN X 6,49 F  6,49
+002 7691152801842 BIŠCOITO RECH RICHESTER 1256
+1,000UN X 3,19F  3,19
+003 7891152801842 BISCOITO RECH RICHESTER 125G
+1.  3,19F.  3,19
+004  68O614147 ACHOCOLATAD0 EM PO ACHOCOLATI
+1,000UN X 15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X  12,99F  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "OP5-26065 dag- NH/UN", "x": 1234.0, "y": 426.0, "h": 53.0, "w": 550.0}, {"text": "WDeC70 seuuaresejy ouepisalg eny", "x": 1078.0, "y": 495.0, "h": 52.0, "w": 870.0}, {"text": "iope 34e u a dn s", "x": 927.0, "y": 569.0, "h": 88.0, "w": 1120.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 789.0, "y": 983.0, "h": 85.0, "w": 837.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 785.0, "y": 1044.0, "h": 83.0, "w": 744.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 785.0, "y": 1104.0, "h": 80.0, "w": 775.0}, {"text": "POTENGI- NATAL - RN", "x": 772.0, "y": 1168.0, "h": 72.0, "w": 610.0}, {"text": "004", "x": 770.0, "y": 2036.0, "h": 51.0, "w": 91.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1005.0, "y": 1290.0, "h": 68.0, "w": 967.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1147.0, "y": 1354.0, "h": 58.0, "w": 709.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1149.0, "y": 1475.0, "h": 63.0, "w": 679.0}, {"text": "Pendente de autorizacao", "x": 1150.0, "y": 1533.0, "h": 56.0, "w": 676.0}, {"text": "#|COD |DESCRICAO| QTD| UN| VL UN| VL TOTAL", "x": 807.0, "y": 1647.0, "h": 68.0, "w": 1073.0}, {"text": "IE - 202138445", "x": 1808.0, "y": 1062.0, "h": 55.0, "w": 406.0}, {"text": "001 7898908222050 BÖLACHA JUČURUTU 250G MANTEIG", "x": 807.0, "y": 1709.0, "h": 63.0, "w": 1374.0}, {"text": "1,000UN X 6,49 F", "x": 920.0, "y": 1763.0, "h": 70.0, "w": 727.0}, {"text": "6,49", "x": 2096.0, "y": 1768.0, "h": 58.0, "w": 114.0}, {"text": "002 7691152801842 BIŠCOITO RECH RICHESTER 1256", "x": 791.0, "y": 1818.0, "h": 61.0, "w": 1364.0}, {"text": "1,000UN X 3,19F", "x": 914.0, "y": 1868.0, "h": 68.0, "w": 735.0}, {"text": "003 7891152801842 BISCOITO RECH RICHESTER 125G", "x": 776.0, "y": 1916.0, "h": 79.0, "w": 1381.0}, {"text": "1.", "x": 890.0, "y": 1981.0, "h": 47.0, "w": 52.0}, {"text": "68O614147 ACHOCOLATAD0 EM PO ACHOCOLATI", "x": 889.0, "y": 1997.0, "h": 127.0, "w": 1311.0}, {"text": "3,19F.", "x": 1361.0, "y": 1979.0, "h": 80.0, "w": 323.0}, {"text": "1,000UN X 15,98 T20", "x": 901.0, "y": 2092.0, "h": 72.0, "w": 777.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 770.0, "y": 2146.0, "h": 77.0, "w": 878.0}, {"text": "12,99F", "x": 1355.0, "y": 2220.0, "h": 61.0, "w": 322.0}, {"text": "0,678KG X", "x": 894.0, "y": 2215.0, "h": 61.0, "w": 272.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 760.0, "y": 2330.0, "h": 70.0, "w": 612.0}, {"text": "VALOR TOTAL R$", "x": 758.0, "y": 2388.0, "h": 70.0, "w": 432.0}, {"text": "VALOR A PAGAR R$", "x": 756.0, "y": 2449.0, "h": 74.0, "w": 488.0}, {"text": "FORMA PAGAMENTO", "x": 758.0, "y": 2514.0, "h": 65.0, "w": 456.0}, {"text": "TEF", "x": 762.0, "y": 2569.0, "h": 53.0, "w": 88.0}, {"text": "SCAL SAT", "x": 2102.0, "y": 487.0, "h": 174.0, "w": 41.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1112.0, "y": 2702.0, "h": 66.0, "w": 721.0}, {"text": "Pendente de autorizacao", "x": 1104.0, "y": 2764.0, "h": 57.0, "w": 730.0}, {"text": "3,19", "x": 2101.0, "y": 1880.0, "h": 58.0, "w": 112.0}, {"text": "3,19", "x": 2103.0, "y": 1995.0, "h": 58.0, "w": 110.0}, {"text": "15,98", "x": 2079.0, "y": 2110.0, "h": 58.0, "w": 135.0}, {"text": "8,81", "x": 2108.0, "y": 2230.0, "h": 59.0, "w": 106.0}, {"text": "005", "x": 2139.0, "y": 2353.0, "h": 54.0, "w": 88.0}, {"text": "37,66", "x": 2075.0, "y": 2410.0, "h": 67.0, "w": 152.0}, {"text": "37,66", "x": 2076.0, "y": 2470.0, "h": 68.0, "w": 151.0}, {"text": "VALOR PAGO R$", "x": 1832.0, "y": 2527.0, "h": 70.0, "w": 397.0}, {"text": "37,66", "x": 2082.0, "y": 2593.0, "h": 65.0, "w": 153.0}]
+
+===== url=None | linhas=41 =====
+--- texto cru ---
+OP5ZE0 6s dag- NH/eiUN
+upaeyZ9 "seuuaiesey oubpseld eny
+ope 3e ua dns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENT0 AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD| UN| VL UN|VL TOTAL
+IE - 202138445
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG
+1,000UN X 6,49 F
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UNx 3,19 F
+003 7891152801842 BIŚCOIT0 RECH RICHESTER 125G
+1,000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UNx 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG Xx 12,99
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+F
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO' R$
+37,66
+--- reconstruido ---
+OP5ZE0 6s dag- NH/eiUN
+upaeyZ9 "seuuaiesey oubpseld eny
+ope 3e ua dns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05,846.413/0005-39  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENT0 AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD| UN| VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG
+1,000UN X 6,49 F  6,49
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UNx 3,19 F  3,19
+003 7891152801842 BIŚCOIT0 RECH RICHESTER 125G
+1,000UN x 3,19 F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UNx 15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG
+0,678KG Xx 12,99  F  8,81
+QTDE. TOTAL DE ITENS  005
+VALOR A PAGAR R$  VALOR TOTAL R$  37,66
+FORMA PAGAMENTO  37,66
+TEF  VALOR PAGO' R$
+37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "OP5ZE0 6s dag- NH/eiUN", "x": 1393.0, "y": 553.0, "h": 54.0, "w": 485.0}, {"text": "upaeyZ9 \"seuuaiesey oubpseld eny", "x": 1215.0, "y": 608.0, "h": 64.0, "w": 811.0}, {"text": "ope 3e ua dns", "x": 1130.0, "y": 677.0, "h": 97.0, "w": 1029.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 971.0, "y": 1098.0, "h": 68.0, "w": 739.0}, {"text": "CNPJ- 05,846.413/0005-39", "x": 980.0, "y": 1157.0, "h": 67.0, "w": 667.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 966.0, "y": 1211.0, "h": 68.0, "w": 694.0}, {"text": "POTENGI - NATAL - RN", "x": 959.0, "y": 1267.0, "h": 60.0, "w": 541.0}, {"text": "DOCUMENT0 AUXILIAR DA NOTA FISCAL", "x": 1152.0, "y": 1377.0, "h": 58.0, "w": 882.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1289.0, "y": 1428.0, "h": 55.0, "w": 639.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1300.0, "y": 1533.0, "h": 60.0, "w": 597.0}, {"text": "Pendente de autorizacao", "x": 1290.0, "y": 1588.0, "h": 57.0, "w": 605.0}, {"text": "#|COD|DESCRICAO |QTD| UN| VL UN|VL TOTAL", "x": 984.0, "y": 1686.0, "h": 68.0, "w": 960.0}, {"text": "IE - 202138445", "x": 1883.0, "y": 1165.0, "h": 49.0, "w": 371.0}, {"text": "001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG", "x": 989.0, "y": 1738.0, "h": 66.0, "w": 1222.0}, {"text": "1,000UN X 6,49 F", "x": 1108.0, "y": 1788.0, "h": 77.0, "w": 624.0}, {"text": "002 7691152801842 BIŚCOITO RECH RICHESTER 1256", "x": 976.0, "y": 1837.0, "h": 66.0, "w": 1208.0}, {"text": "1,000UNx 3,19 F", "x": 1084.0, "y": 1890.0, "h": 61.0, "w": 645.0}, {"text": "003 7891152801842 BIŚCOIT0 RECH RICHESTER 125G", "x": 965.0, "y": 1927.0, "h": 84.0, "w": 1218.0}, {"text": "1,000UN x 3,19 F", "x": 1069.0, "y": 1983.0, "h": 71.0, "w": 660.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 953.0, "y": 2025.0, "h": 87.0, "w": 1251.0}, {"text": "1,000UNx 15,98 T20", "x": 1071.0, "y": 2085.0, "h": 67.0, "w": 682.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 958.0, "y": 2128.0, "h": 80.0, "w": 767.0}, {"text": "0,678KG Xx 12,99", "x": 1065.0, "y": 2190.0, "h": 66.0, "w": 526.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 950.0, "y": 2293.0, "h": 60.0, "w": 530.0}, {"text": "VALOR TOTAL R$", "x": 950.0, "y": 2347.0, "h": 58.0, "w": 371.0}, {"text": "VALOR A PAGAR R$", "x": 947.0, "y": 2395.0, "h": 66.0, "w": 420.0}, {"text": "FORMA PAGAMENTO", "x": 949.0, "y": 2449.0, "h": 61.0, "w": 393.0}, {"text": "TEF", "x": 952.0, "y": 2494.0, "h": 49.0, "w": 72.0}, {"text": "F", "x": 1730.0, "y": 2210.0, "h": 46.0, "w": 21.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1271.0, "y": 2611.0, "h": 74.0, "w": 604.0}, {"text": "Pendente de autorizacao", "x": 1246.0, "y": 2668.0, "h": 63.0, "w": 629.0}, {"text": "6,49", "x": 2116.0, "y": 1805.0, "h": 53.0, "w": 121.0}, {"text": "3,19", "x": 2126.0, "y": 1907.0, "h": 55.0, "w": 110.0}, {"text": "3,19", "x": 2134.0, "y": 2010.0, "h": 49.0, "w": 99.0}, {"text": "15,98", "x": 2110.0, "y": 2106.0, "h": 59.0, "w": 122.0}, {"text": "8,81", "x": 2131.0, "y": 2219.0, "h": 54.0, "w": 96.0}, {"text": "005", "x": 2157.0, "y": 2329.0, "h": 48.0, "w": 74.0}, {"text": "37,66", "x": 2101.0, "y": 2381.0, "h": 55.0, "w": 133.0}, {"text": "37,66", "x": 2096.0, "y": 2423.0, "h": 72.0, "w": 135.0}, {"text": "VALOR PAGO' R$", "x": 1881.0, "y": 2475.0, "h": 68.0, "w": 350.0}, {"text": "37,66", "x": 2100.0, "y": 2542.0, "h": 55.0, "w": 135.0}]
+
+===== url=None | linhas=39 =====
+--- texto cru ---
+MEDETROS E MAIA LTDA (LJ O3)
+CNPJ-05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONTCA
+TE- 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+|C0D |DESCRICAO| QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG
+1,000UNXA49,
+6,49F
+002 7891152801842 BISCOITO RECH RICHESTER 1256
+1.000UN X 3,19F
+0,678KG X
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+003 7891152801842 BISCOIT0 RECH RICHESTER 125G
+1.000UN X, 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+12,99 F
+6,49
+3,19
+EMITIDA EM CONTI NGENCIA
+Pendente de autorizaCao
+3,19
+15.98
+8,81
+005
+37,66
+37 66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+MEDETROS E MAIA LTDA (LJ O3)
+CNPJ-05.846.413/0005-39  TE- 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI- NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONTCA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+|C0D |DESCRICAO| QTD|UN|VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG
+1,000UNXA49,  6,49F  6,49
+002 7891152801842 BISCOITO RECH RICHESTER 1256
+1.000UN X 3,19F  3,19
+003 7891152801842 BISCOIT0 RECH RICHESTER 125G
+1.000UN X, 3,19 F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20  15.98
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X  12,99 F  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37 66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTI NGENCIA
+Pendente de autorizaCao
+--- geometria ---
+[{"text": "MEDETROS E MAIA LTDA (LJ O3)", "x": 615.0, "y": 560.0, "h": 104.0, "w": 1033.0}, {"text": "CNPJ-05.846.413/0005-39", "x": 650.0, "y": 639.0, "h": 98.0, "w": 892.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 648.0, "y": 710.0, "h": 96.0, "w": 941.0}, {"text": "POTENGI- NATAL- RN", "x": 643.0, "y": 782.0, "h": 88.0, "w": 744.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 921.0, "y": 925.0, "h": 95.0, "w": 1166.0}, {"text": "DE CONSUMIDOR ELETRONTCA", "x": 1081.0, "y": 1003.0, "h": 81.0, "w": 868.0}, {"text": "TE- 202138445", "x": 1877.0, "y": 652.0, "h": 85.0, "w": 482.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1086.0, "y": 1145.0, "h": 77.0, "w": 828.0}, {"text": "Pendente de autorizacao", "x": 1086.0, "y": 1218.0, "h": 80.0, "w": 832.0}, {"text": "|C0D |DESCRICAO| QTD|UN|VL UN|VL TOTAL", "x": 714.0, "y": 1366.0, "h": 86.0, "w": 1266.0}, {"text": "001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG", "x": 645.0, "y": 1438.0, "h": 80.0, "w": 1707.0}, {"text": "1,000UNXA49,", "x": 806.0, "y": 1509.0, "h": 91.0, "w": 713.0}, {"text": "6,49F", "x": 1348.0, "y": 1509.0, "h": 71.0, "w": 352.0}, {"text": "002 7891152801842 BISCOITO RECH RICHESTER 1256", "x": 645.0, "y": 1563.0, "h": 88.0, "w": 1676.0}, {"text": "1.000UN X 3,19F", "x": 805.0, "y": 1622.0, "h": 93.0, "w": 903.0}, {"text": "0,678KG X", "x": 778.0, "y": 2045.0, "h": 92.0, "w": 363.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 609.0, "y": 2191.0, "h": 91.0, "w": 774.0}, {"text": "VALOR TOTAL R$", "x": 613.0, "y": 2271.0, "h": 89.0, "w": 542.0}, {"text": "VALOR A PAGAR R$", "x": 636.0, "y": 2337.0, "h": 92.0, "w": 592.0}, {"text": "FORMA PAGAMENTO", "x": 612.0, "y": 2428.0, "h": 81.0, "w": 578.0}, {"text": "TEF", "x": 647.0, "y": 2496.0, "h": 79.0, "w": 90.0}, {"text": "003 7891152801842 BISCOIT0 RECH RICHESTER 125G", "x": 666.0, "y": 1697.0, "h": 79.0, "w": 1665.0}, {"text": "1.000UN X, 3,19 F", "x": 819.0, "y": 1761.0, "h": 88.0, "w": 903.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 641.0, "y": 1828.0, "h": 89.0, "w": 1729.0}, {"text": "1,000UN X 15,98 T20", "x": 792.0, "y": 1904.0, "h": 83.0, "w": 961.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 623.0, "y": 1974.0, "h": 84.0, "w": 1094.0}, {"text": "12,99 F", "x": 1375.0, "y": 2045.0, "h": 92.0, "w": 379.0}, {"text": "6,49", "x": 2242.0, "y": 1502.0, "h": 74.0, "w": 137.0}, {"text": "3,19", "x": 2222.0, "y": 1627.0, "h": 82.0, "w": 168.0}, {"text": "EMITIDA EM CONTI NGENCIA", "x": 1066.0, "y": 2639.0, "h": 95.0, "w": 903.0}, {"text": "Pendente de autorizaCao", "x": 1057.0, "y": 2715.0, "h": 81.0, "w": 920.0}, {"text": "3,19", "x": 2261.0, "y": 1764.0, "h": 76.0, "w": 136.0}, {"text": "15.98", "x": 2239.0, "y": 1908.0, "h": 68.0, "w": 160.0}, {"text": "8,81", "x": 2277.0, "y": 2050.0, "h": 73.0, "w": 134.0}, {"text": "005", "x": 2320.0, "y": 2192.0, "h": 80.0, "w": 107.0}, {"text": "37,66", "x": 2249.0, "y": 2265.0, "h": 84.0, "w": 183.0}, {"text": "37 66", "x": 2284.0, "y": 2333.0, "h": 97.0, "w": 166.0}, {"text": "VALOR PAGO R$", "x": 1955.0, "y": 2413.0, "h": 89.0, "w": 488.0}, {"text": "37,66", "x": 2263.0, "y": 2493.0, "h": 78.0, "w": 189.0}]
+
+===== url=None | linhas=40 =====
+--- texto cru ---
+O5-26065 deg-Nw/tN
+ey29seisiesey auopsasg eny
+t00B5 adns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+IE- 202138445
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#COD|DESCRICAO| QTD|UN VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UN x 6,49 F
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN X 3,19 F
+003 7891152801842 BISCOITO RECH RICHESTER 125G
+1,000UN x 3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99F
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO' R$
+37,66
+--- reconstruido ---
+O5-26065 deg-Nw/tN
+ey29seisiesey auopsasg eny
+t00B5 adns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39  IE- 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#COD|DESCRICAO| QTD|UN VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UN x 6,49 F  6,49
+002 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN X 3,19 F  3,19
+003 7891152801842 BISCOITO RECH RICHESTER 125G
+1,000UN x 3,19  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20  15,98
+005 826 PAO BOMDIA FRANCES KG
+0,678KG X 12,99F  8,81
+QTDE. TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO' R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "O5-26065 deg-Nw/tN", "x": 1317.0, "y": 323.0, "h": 71.0, "w": 556.0}, {"text": "ey29seisiesey auopsasg eny", "x": 1231.0, "y": 385.0, "h": 85.0, "w": 771.0}, {"text": "t00B5 adns", "x": 982.0, "y": 472.0, "h": 89.0, "w": 1149.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 884.0, "y": 848.0, "h": 105.0, "w": 826.0}, {"text": "CNPJ- 05.846.413/0005-39", "x": 869.0, "y": 911.0, "h": 99.0, "w": 763.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 868.0, "y": 969.0, "h": 99.0, "w": 786.0}, {"text": "POTENGI - NATAL - RN", "x": 894.0, "y": 1034.0, "h": 75.0, "w": 584.0}, {"text": "IE- 202138445", "x": 1895.0, "y": 946.0, "h": 64.0, "w": 392.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1118.0, "y": 1158.0, "h": 82.0, "w": 941.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1245.0, "y": 1224.0, "h": 69.0, "w": 700.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1249.0, "y": 1342.0, "h": 69.0, "w": 664.0}, {"text": "Pendente de autorizacao", "x": 1246.0, "y": 1401.0, "h": 69.0, "w": 668.0}, {"text": "#COD|DESCRICAO| QTD|UN VL UN|VL TOTAL", "x": 886.0, "y": 1514.0, "h": 77.0, "w": 1081.0}, {"text": "001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG", "x": 911.0, "y": 1577.0, "h": 71.0, "w": 1358.0}, {"text": "1,000UN x 6,49 F", "x": 1014.0, "y": 1636.0, "h": 67.0, "w": 723.0}, {"text": "002 7691152801842 BIŚCOITO RECH RICHESTER 1256", "x": 887.0, "y": 1689.0, "h": 64.0, "w": 1347.0}, {"text": "1,000UN X 3,19 F", "x": 1011.0, "y": 1732.0, "h": 76.0, "w": 742.0}, {"text": "003 7891152801842 BISCOITO RECH RICHESTER 125G", "x": 873.0, "y": 1783.0, "h": 84.0, "w": 1366.0}, {"text": "1,000UN x 3,19", "x": 1001.0, "y": 1839.0, "h": 74.0, "w": 566.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 890.0, "y": 1893.0, "h": 84.0, "w": 1377.0}, {"text": "1,000UN X 15,98 T20", "x": 1002.0, "y": 1955.0, "h": 78.0, "w": 772.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 871.0, "y": 2011.0, "h": 78.0, "w": 874.0}, {"text": "0,678KG X 12,99F", "x": 995.0, "y": 2068.0, "h": 81.0, "w": 780.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 892.0, "y": 2192.0, "h": 72.0, "w": 582.0}, {"text": "VALOR TOTAL R$", "x": 861.0, "y": 2252.0, "h": 69.0, "w": 431.0}, {"text": "VALOR A PAGAR R$", "x": 863.0, "y": 2316.0, "h": 69.0, "w": 484.0}, {"text": "FORMA PAGAMENTO", "x": 859.0, "y": 2380.0, "h": 67.0, "w": 459.0}, {"text": "TEF", "x": 862.0, "y": 2436.0, "h": 55.0, "w": 90.0}, {"text": "6,49", "x": 2176.0, "y": 1644.0, "h": 57.0, "w": 112.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1237.0, "y": 2556.0, "h": 65.0, "w": 704.0}, {"text": "Pendente de autorizacao", "x": 1217.0, "y": 2618.0, "h": 55.0, "w": 729.0}, {"text": "3,19", "x": 2184.0, "y": 1753.0, "h": 53.0, "w": 106.0}, {"text": "3,19", "x": 2188.0, "y": 1864.0, "h": 60.0, "w": 104.0}, {"text": "15,98", "x": 2168.0, "y": 1976.0, "h": 56.0, "w": 127.0}, {"text": "8,81", "x": 2197.0, "y": 2092.0, "h": 58.0, "w": 101.0}, {"text": "005", "x": 2229.0, "y": 2212.0, "h": 61.0, "w": 85.0}, {"text": "37,66", "x": 2169.0, "y": 2271.0, "h": 63.0, "w": 146.0}, {"text": "37,66", "x": 2171.0, "y": 2324.0, "h": 65.0, "w": 145.0}, {"text": "VALOR PAGO' R$", "x": 1933.0, "y": 2386.0, "h": 63.0, "w": 386.0}, {"text": "37,66", "x": 2176.0, "y": 2444.0, "h": 66.0, "w": 150.0}]
+
+===== url=None | linhas=42 =====
+--- texto cru ---
+0P5-Z60 65 deg-NH/N
+pneeL9 seuuieasey oubpsala eny
+hio pe 34e u a dns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+IE - 202138445
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+#|COD|DESCRICAO |QTD|UNIVL UNIVL TOTAL
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+sCAL SA
+001 7898908222050 BÒLAĆHA JUCURUTU 250G MANTEIG
+1,000UN X 6,49
+6,49
+002 7691152801842 BISCOITO RECH RICHESTER 1256
+1,000UN X
+3,19 F
+003 7691152801842 BISCOITO RECH RICHESTER 1256
+1,000UNx 3, 19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X 12,99
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+0P5-Z60 65 deg-NH/N
+pneeL9 seuuieasey oubpsala eny
+sCAL SA
+hio pe 34e u a dns
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL- RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+#|COD|DESCRICAO |QTD|UNIVL UNIVL TOTAL
+001 7898908222050 BÒLAĆHA JUCURUTU 250G MANTEIG
+1,000UN X 6,49  6,49
+002 7691152801842 BISCOITO RECH RICHESTER 1256
+1,000UN X  3,19 F  3,19
+003 7691152801842 BISCOITO RECH RICHESTER 1256
+1,000UNx 3, 19 F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20  15,98
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X 12,99  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "0P5-Z60 65 deg-NH/N", "x": 1259.0, "y": 483.0, "h": 56.0, "w": 503.0}, {"text": "pneeL9 seuuieasey oubpsala eny", "x": 1085.0, "y": 547.0, "h": 57.0, "w": 828.0}, {"text": "hio pe 34e u a dns", "x": 915.0, "y": 623.0, "h": 74.0, "w": 1096.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 846.0, "y": 1000.0, "h": 84.0, "w": 777.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 831.0, "y": 1062.0, "h": 71.0, "w": 713.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 832.0, "y": 1116.0, "h": 80.0, "w": 741.0}, {"text": "POTENGI - NATAL- RN", "x": 830.0, "y": 1173.0, "h": 69.0, "w": 578.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1052.0, "y": 1289.0, "h": 67.0, "w": 909.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1187.0, "y": 1350.0, "h": 59.0, "w": 665.0}, {"text": "IE - 202138445", "x": 1802.0, "y": 1080.0, "h": 55.0, "w": 372.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1192.0, "y": 1464.0, "h": 57.0, "w": 632.0}, {"text": "Pendente de autorizaca0", "x": 1190.0, "y": 1521.0, "h": 53.0, "w": 632.0}, {"text": "#|COD|DESCRICAO |QTD|UNIVL UNIVL TOTAL", "x": 861.0, "y": 1623.0, "h": 67.0, "w": 1015.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 855.0, "y": 2268.0, "h": 64.0, "w": 554.0}, {"text": "VALOR TOTAL R$", "x": 829.0, "y": 2326.0, "h": 65.0, "w": 407.0}, {"text": "VALOR A PAGAR R$", "x": 824.0, "y": 2382.0, "h": 65.0, "w": 467.0}, {"text": "FORMA PAGAMENTO", "x": 825.0, "y": 2446.0, "h": 62.0, "w": 437.0}, {"text": "TEF", "x": 832.0, "y": 2500.0, "h": 49.0, "w": 82.0}, {"text": "sCAL SA", "x": 2062.0, "y": 549.0, "h": 147.0, "w": 41.0}, {"text": "001 7898908222050 BÒLAĆHA JUCURUTU 250G MANTEIG", "x": 866.0, "y": 1681.0, "h": 59.0, "w": 1285.0}, {"text": "1,000UN X 6,49", "x": 971.0, "y": 1735.0, "h": 64.0, "w": 523.0}, {"text": "6,49", "x": 2060.0, "y": 1737.0, "h": 55.0, "w": 120.0}, {"text": "002 7691152801842 BISCOITO RECH RICHESTER 1256", "x": 852.0, "y": 1781.0, "h": 61.0, "w": 1277.0}, {"text": "1,000UN X", "x": 969.0, "y": 1836.0, "h": 55.0, "w": 243.0}, {"text": "3,19 F", "x": 1399.0, "y": 1833.0, "h": 60.0, "w": 263.0}, {"text": "003 7691152801842 BISCOITO RECH RICHESTER 1256", "x": 841.0, "y": 1880.0, "h": 67.0, "w": 1292.0}, {"text": "1,000UNx 3, 19 F", "x": 959.0, "y": 1932.0, "h": 66.0, "w": 703.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 831.0, "y": 1988.0, "h": 67.0, "w": 1337.0}, {"text": "1,000UN X 15,98 T20", "x": 959.0, "y": 2027.0, "h": 90.0, "w": 730.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 837.0, "y": 2097.0, "h": 62.0, "w": 836.0}, {"text": "0,678KG X 12,99", "x": 954.0, "y": 2160.0, "h": 58.0, "w": 570.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1186.0, "y": 2604.0, "h": 66.0, "w": 657.0}, {"text": "Pendente de autorizacao", "x": 1164.0, "y": 2666.0, "h": 55.0, "w": 685.0}, {"text": "3,19", "x": 2080.0, "y": 1841.0, "h": 52.0, "w": 103.0}, {"text": "3,19", "x": 2083.0, "y": 1946.0, "h": 52.0, "w": 100.0}, {"text": "15,98", "x": 2066.0, "y": 2054.0, "h": 53.0, "w": 122.0}, {"text": "8,81", "x": 2092.0, "y": 2164.0, "h": 55.0, "w": 97.0}, {"text": "005", "x": 2122.0, "y": 2277.0, "h": 57.0, "w": 82.0}, {"text": "37,66", "x": 2065.0, "y": 2330.0, "h": 58.0, "w": 137.0}, {"text": "37,66", "x": 2067.0, "y": 2386.0, "h": 62.0, "w": 138.0}, {"text": "VALOR PAGO R$", "x": 1842.0, "y": 2446.0, "h": 61.0, "w": 365.0}, {"text": "37,66", "x": 2072.0, "y": 2500.0, "h": 59.0, "w": 139.0}]
+
+===== url=None | linhas=42 =====
+--- texto cru ---
+0PSCE0' 69 d0g - N/I
+WppayeL9 seuuaeasey ojuepisolg eny
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAOIQTD|UNIVL UNIVL TOTAL
+IE - 202138445
+1,000UN X
+001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG
+6,49F
+0,678KG x
+oECF-EEN
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+002 7891152801842 BISC0ITO RECH RICHESTER 1256
+1,000UN x 3,19 F
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN x 15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+12,99F
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+3,19
+3,19
+15,96
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+0PSCE0' 69 d0g - N/I
+WppayeL9 seuuaeasey ojuepisolg eny
+oECF-EEN
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAOIQTD|UNIVL UNIVL TOTAL
+001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG
+1,000UN X  6,49F  6,49
+002 7891152801842 BISC0ITO RECH RICHESTER 1256
+1,000UN x 3,19 F  3,19
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN x 3,19 F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN x 15,98 T20  15,96
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG x  12,99F  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+--- geometria ---
+[{"text": "0PSCE0' 69 d0g - N/I", "x": 1263.0, "y": 0.0, "h": 56.0, "w": 549.0}, {"text": "WppayeL9 seuuaeasey ojuepisolg eny", "x": 1036.0, "y": 75.0, "h": 74.0, "w": 1074.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 792.0, "y": 814.0, "h": 78.0, "w": 929.0}, {"text": "CNPJ- 05.846.413/0005-39", "x": 804.0, "y": 880.0, "h": 73.0, "w": 826.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 782.0, "y": 943.0, "h": 71.0, "w": 872.0}, {"text": "POTENGI - NATAL - RN", "x": 770.0, "y": 1005.0, "h": 64.0, "w": 685.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1030.0, "y": 1113.0, "h": 87.0, "w": 1102.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1190.0, "y": 1180.0, "h": 84.0, "w": 813.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1195.0, "y": 1312.0, "h": 81.0, "w": 777.0}, {"text": "Pendente de autorizacao", "x": 1194.0, "y": 1383.0, "h": 72.0, "w": 778.0}, {"text": "#|COD|DESCRICAOIQTD|UNIVL UNIVL TOTAL", "x": 789.0, "y": 1513.0, "h": 88.0, "w": 1251.0}, {"text": "IE - 202138445", "x": 1927.0, "y": 875.0, "h": 53.0, "w": 452.0}, {"text": "1,000UN X", "x": 968.0, "y": 1665.0, "h": 69.0, "w": 268.0}, {"text": "001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG", "x": 793.0, "y": 1573.0, "h": 95.0, "w": 1586.0}, {"text": "6,49F", "x": 1438.0, "y": 1648.0, "h": 76.0, "w": 330.0}, {"text": "0,678KG x", "x": 920.0, "y": 2176.0, "h": 72.0, "w": 309.0}, {"text": "oECF-EEN", "x": 2284.0, "y": 85.0, "h": 426.0, "w": 52.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 768.0, "y": 2308.0, "h": 78.0, "w": 699.0}, {"text": "VALOR TOTAL R$", "x": 772.0, "y": 2376.0, "h": 82.0, "w": 493.0}, {"text": "VALOR A PAGAR R$", "x": 769.0, "y": 2444.0, "h": 83.0, "w": 555.0}, {"text": "FORMA PAGAMENTO", "x": 772.0, "y": 2516.0, "h": 75.0, "w": 522.0}, {"text": "TEF", "x": 776.0, "y": 2584.0, "h": 62.0, "w": 100.0}, {"text": "002 7891152801842 BISC0ITO RECH RICHESTER 1256", "x": 797.0, "y": 1703.0, "h": 88.0, "w": 1549.0}, {"text": "1,000UN x 3,19 F", "x": 936.0, "y": 1773.0, "h": 78.0, "w": 837.0}, {"text": "003 7891152801842 BIŚCOITO RECH RICHESTER 125G", "x": 780.0, "y": 1835.0, "h": 77.0, "w": 1586.0}, {"text": "1,000UN x 3,19 F", "x": 920.0, "y": 1901.0, "h": 79.0, "w": 855.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 770.0, "y": 1969.0, "h": 72.0, "w": 1619.0}, {"text": "1,000UN x 15,98 T20", "x": 924.0, "y": 2030.0, "h": 85.0, "w": 887.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 778.0, "y": 2101.0, "h": 77.0, "w": 1000.0}, {"text": "12,99F", "x": 1445.0, "y": 2169.0, "h": 76.0, "w": 367.0}, {"text": "6,49", "x": 2280.0, "y": 1645.0, "h": 66.0, "w": 132.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1185.0, "y": 2726.0, "h": 75.0, "w": 814.0}, {"text": "Pendente de autorizaca0", "x": 1179.0, "y": 2799.0, "h": 63.0, "w": 830.0}, {"text": "3,19", "x": 2254.0, "y": 1770.0, "h": 80.0, "w": 163.0}, {"text": "3,19", "x": 2292.0, "y": 1907.0, "h": 67.0, "w": 127.0}, {"text": "15,96", "x": 2267.0, "y": 2039.0, "h": 65.0, "w": 152.0}, {"text": "8,81", "x": 2300.0, "y": 2175.0, "h": 67.0, "w": 120.0}, {"text": "005", "x": 2335.0, "y": 2312.0, "h": 61.0, "w": 99.0}, {"text": "37,66", "x": 2264.0, "y": 2366.0, "h": 85.0, "w": 168.0}, {"text": "37,66", "x": 2264.0, "y": 2437.0, "h": 86.0, "w": 168.0}, {"text": "VALOR PAGO R$", "x": 1994.0, "y": 2513.0, "h": 76.0, "w": 439.0}, {"text": "37,66", "x": 2269.0, "y": 2586.0, "h": 70.0, "w": 170.0}]
+
+===== url=None | linhas=41 =====
+--- texto cru ---
+Ob5°ZE065 dog- N/eieN
+Wpag-EZ9 'seuusesey auopsesg eny
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+IE - 202138445
+#|COD| DESCRICAO |QTD| UN|VL UN|VL TOTAL
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1.000UN x 6,49
+6,49
+002 7691152801842 BIŠCOITO RECH RICHESTER 1256
+1,000UNx 3,19 F
+003 7691152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN X 3,19 F
+3.19
+004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT
+1,000UN x 15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X 12,99
+F
+SAVCF-E
+EMITIDA EM CONTINGENCIA
+Pendete de autorizacao
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+Ob5°ZE065 dog- N/eieN
+Wpag-EZ9 'seuusesey auopsesg eny
+SAVCF-E
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ- 05.846.413/0005-39  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+#|COD| DESCRICAO |QTD| UN|VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1.000UN x 6,49  6,49
+002 7691152801842 BIŠCOITO RECH RICHESTER 1256
+1,000UNx 3,19 F  3,19
+003 7691152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN X 3,19 F  3.19
+004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT
+1,000UN x 15,98 T20  15,98
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X 12,99  F  8,81
+QTDE. TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendete de autorizacao
+--- geometria ---
+[{"text": "Ob5°ZE065 dog- N/eieN", "x": 1359.0, "y": 694.0, "h": 56.0, "w": 420.0}, {"text": "Wpag-EZ9 'seuusesey auopsesg eny", "x": 1210.0, "y": 742.0, "h": 61.0, "w": 699.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 1051.0, "y": 1203.0, "h": 52.0, "w": 615.0}, {"text": "CNPJ- 05.846.413/0005-39", "x": 1054.0, "y": 1251.0, "h": 50.0, "w": 562.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 1042.0, "y": 1297.0, "h": 49.0, "w": 582.0}, {"text": "POTENGI NATAL - RN", "x": 1045.0, "y": 1335.0, "h": 54.0, "w": 444.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1204.0, "y": 1425.0, "h": 54.0, "w": 729.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1316.0, "y": 1470.0, "h": 49.0, "w": 531.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1319.0, "y": 1563.0, "h": 48.0, "w": 504.0}, {"text": "Pendente de autorizaca0", "x": 1318.0, "y": 1612.0, "h": 39.0, "w": 507.0}, {"text": "IE - 202138445", "x": 1810.0, "y": 1243.0, "h": 46.0, "w": 311.0}, {"text": "#|COD| DESCRICAO |QTD| UN|VL UN|VL TOTAL", "x": 1070.0, "y": 1687.0, "h": 59.0, "w": 795.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 1035.0, "y": 2202.0, "h": 51.0, "w": 452.0}, {"text": "VALOR TOTAL R$", "x": 1033.0, "y": 2244.0, "h": 54.0, "w": 320.0}, {"text": "VALOR A PAGAR R$", "x": 1031.0, "y": 2289.0, "h": 51.0, "w": 359.0}, {"text": "FORMA PAGAMENTO", "x": 1032.0, "y": 2337.0, "h": 54.0, "w": 338.0}, {"text": "TEF", "x": 1032.0, "y": 2380.0, "h": 40.0, "w": 61.0}, {"text": "001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG", "x": 1051.0, "y": 1729.0, "h": 59.0, "w": 1037.0}, {"text": "1.000UN x 6,49", "x": 1147.0, "y": 1779.0, "h": 52.0, "w": 412.0}, {"text": "6,49", "x": 2027.0, "y": 1781.0, "h": 39.0, "w": 84.0}, {"text": "002 7691152801842 BIŠCOITO RECH RICHESTER 1256", "x": 1052.0, "y": 1817.0, "h": 53.0, "w": 1018.0}, {"text": "1,000UNx 3,19 F", "x": 1143.0, "y": 1862.0, "h": 46.0, "w": 549.0}, {"text": "003 7691152801842 BIŚCOITO RECH RICHESTER 125G", "x": 1043.0, "y": 1893.0, "h": 58.0, "w": 1026.0}, {"text": "1,000UN X 3,19 F", "x": 1135.0, "y": 1939.0, "h": 48.0, "w": 555.0}, {"text": "3.19", "x": 2030.0, "y": 1951.0, "h": 39.0, "w": 81.0}, {"text": "004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT", "x": 1037.0, "y": 1975.0, "h": 60.0, "w": 1059.0}, {"text": "1,000UN x 15,98 T20", "x": 1135.0, "y": 2025.0, "h": 55.0, "w": 576.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 1038.0, "y": 2062.0, "h": 58.0, "w": 654.0}, {"text": "0,678KG X 12,99", "x": 1130.0, "y": 2114.0, "h": 49.0, "w": 448.0}, {"text": "F", "x": 1696.0, "y": 2124.0, "h": 37.0, "w": 17.0}, {"text": "SAVCF-E", "x": 2026.0, "y": 799.0, "h": 153.0, "w": 45.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1305.0, "y": 2474.0, "h": 44.0, "w": 524.0}, {"text": "Pendete de autorizacao", "x": 1294.0, "y": 2515.0, "h": 45.0, "w": 535.0}, {"text": "3,19", "x": 2033.0, "y": 1865.0, "h": 47.0, "w": 80.0}, {"text": "15,98", "x": 2014.0, "y": 2038.0, "h": 42.0, "w": 95.0}, {"text": "8,81", "x": 2032.0, "y": 2126.0, "h": 44.0, "w": 73.0}, {"text": "005", "x": 2054.0, "y": 2216.0, "h": 47.0, "w": 61.0}, {"text": "37,66", "x": 2008.0, "y": 2261.0, "h": 49.0, "w": 106.0}, {"text": "37,66", "x": 2008.0, "y": 2296.0, "h": 54.0, "w": 105.0}, {"text": "VALOR PAGO R$", "x": 1827.0, "y": 2341.0, "h": 58.0, "w": 286.0}, {"text": "37,66", "x": 2009.0, "y": 2394.0, "h": 47.0, "w": 110.0}]
+
+===== url=None | linhas=42 =====
+--- texto cru ---
+OpsZ60'65 de)- NH/eeN
+18Cupsoye70 'seuuaiersey ajubpsəld eng
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD| DESCRICAO |QTD |UN|VL UN|VL TOTAL
+IE - 202138445
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG
+1.000UN x 6,49
+0,678KG X
+12,99
+SAVCFEENFC
+002 7691 152801842 BIŠCOIT0 RECH RICHESTER 1256
+3,19 F
+1,000UN X
+O03 7691152801842 BISCOITO RECH RICHESTER 125Ć
+1,000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÅNCES KG
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+OpsZ60'65 de)- NH/eeN
+18Cupsoye70 'seuuaiersey ajubpsəld eng
+SAVCFEENFC
+MEDEIROSE MAIA LTDA (LJ 03)  IE - 202138445
+CNPJ - 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD| DESCRICAO |QTD |UN|VL UN|VL TOTAL  001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG  6,49
+002 7691 152801842 BIŠCOIT0 RECH RICHESTER 1256  1.000UN x 6,49  3,19
+O03 7691152801842 BISCOITO RECH RICHESTER 125Ć  1,000UN X  3,19 F
+1,000UN x 3,19 F  3,19
+004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT  15,98
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÅNCES KG  0,678KG X  12,99  8,81
+QTDE, TOTAL DE ITENS  37,66  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+--- geometria ---
+[{"text": "OpsZ60'65 de)- NH/eeN", "x": 1205.0, "y": 327.0, "h": 108.0, "w": 519.0}, {"text": "18Cupsoye70 'seuuaiersey ajubpsəld eng", "x": 860.0, "y": 379.0, "h": 152.0, "w": 1036.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 868.0, "y": 1062.0, "h": 124.0, "w": 729.0}, {"text": "CNPJ - 05,846.413/0005-39", "x": 868.0, "y": 1122.0, "h": 116.0, "w": 664.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 871.0, "y": 1172.0, "h": 119.0, "w": 681.0}, {"text": "POTENGI - NATAL - RN", "x": 880.0, "y": 1239.0, "h": 96.0, "w": 513.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1046.0, "y": 1301.0, "h": 126.0, "w": 899.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1186.0, "y": 1366.0, "h": 98.0, "w": 652.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1195.0, "y": 1478.0, "h": 94.0, "w": 618.0}, {"text": "Pendente de autorizacao", "x": 1197.0, "y": 1538.0, "h": 84.0, "w": 619.0}, {"text": "#|COD| DESCRICAO |QTD |UN|VL UN|VL TOTAL", "x": 899.0, "y": 1637.0, "h": 116.0, "w": 974.0}, {"text": "IE - 202138445", "x": 1770.0, "y": 1078.0, "h": 77.0, "w": 382.0}, {"text": "001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG", "x": 906.0, "y": 1672.0, "h": 132.0, "w": 1251.0}, {"text": "1.000UN x 6,49", "x": 1025.0, "y": 1771.0, "h": 73.0, "w": 478.0}, {"text": "0,678KG X", "x": 995.0, "y": 2192.0, "h": 63.0, "w": 242.0}, {"text": "12,99", "x": 1409.0, "y": 2183.0, "h": 56.0, "w": 128.0}, {"text": "SAVCFEENFC", "x": 2055.0, "y": 478.0, "h": 278.0, "w": 59.0}, {"text": "002 7691 152801842 BIŠCOIT0 RECH RICHESTER 1256", "x": 897.0, "y": 1772.0, "h": 131.0, "w": 1238.0}, {"text": "3,19 F", "x": 1397.0, "y": 1857.0, "h": 65.0, "w": 268.0}, {"text": "1,000UN X", "x": 1005.0, "y": 1878.0, "h": 65.0, "w": 229.0}, {"text": "O03 7691152801842 BISCOITO RECH RICHESTER 125Ć", "x": 902.0, "y": 1877.0, "h": 119.0, "w": 1240.0}, {"text": "1,000UN x 3,19 F", "x": 996.0, "y": 1959.0, "h": 80.0, "w": 672.0}, {"text": "004 7896045104147 ACHOCOLATADO EM P0 ACHOCOLATT", "x": 878.0, "y": 1982.0, "h": 118.0, "w": 1300.0}, {"text": "1,000UN X 15,98 T20", "x": 995.0, "y": 2058.0, "h": 93.0, "w": 704.0}, {"text": "005 826 PAO BOMDIA FRÅNCES KG", "x": 885.0, "y": 2115.0, "h": 86.0, "w": 789.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 880.0, "y": 2292.0, "h": 71.0, "w": 551.0}, {"text": "VALOR TOTAL R$", "x": 903.0, "y": 2351.0, "h": 68.0, "w": 361.0}, {"text": "VALOR A PAGAR R$", "x": 885.0, "y": 2411.0, "h": 66.0, "w": 437.0}, {"text": "FORMA PAGAMENTO", "x": 887.0, "y": 2466.0, "h": 65.0, "w": 408.0}, {"text": "TEF", "x": 891.0, "y": 2524.0, "h": 53.0, "w": 79.0}, {"text": "6,49", "x": 2080.0, "y": 1721.0, "h": 56.0, "w": 110.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1212.0, "y": 2611.0, "h": 77.0, "w": 652.0}, {"text": "Pendente de autorizaca0", "x": 1209.0, "y": 2673.0, "h": 61.0, "w": 658.0}, {"text": "3,19", "x": 2073.0, "y": 1832.0, "h": 60.0, "w": 123.0}, {"text": "3,19", "x": 2095.0, "y": 1940.0, "h": 50.0, "w": 104.0}, {"text": "15,98", "x": 2075.0, "y": 2041.0, "h": 59.0, "w": 133.0}, {"text": "8,81", "x": 2097.0, "y": 2158.0, "h": 57.0, "w": 112.0}, {"text": "005", "x": 2141.0, "y": 2271.0, "h": 51.0, "w": 82.0}, {"text": "37,66", "x": 2085.0, "y": 2321.0, "h": 61.0, "w": 142.0}, {"text": "37,66", "x": 2087.0, "y": 2380.0, "h": 59.0, "w": 137.0}, {"text": "VALOR PAGO R$", "x": 1860.0, "y": 2434.0, "h": 71.0, "w": 367.0}, {"text": "37,66", "x": 2092.0, "y": 2493.0, "h": 59.0, "w": 140.0}]
+
+===== url=None | linhas=41 =====
+--- texto cru ---
+OpS-Z60'65 dag- NH/eeN
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+CODDESCRICAO|QTD|UN| VL UN|VL TOTAL
+IE- 202138445
+001 7898908222050 BOLAĆHA JUCURUTU 250G MANTEIG
+1.000UNx 6.49
+002 7891 152801842 BISCOITO RECH RICHESTER 125G
+1.000UN X 3,19F
+F
+1,000UN X 3,19 F
+rFISCAL SAVCEEE
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+6,49
+3.19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X
+15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X
+12,99
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+OpS-Z60'65 dag- NH/eeN
+rFISCAL SAVCEEE
+MEDEIROS E MAIA LTDA (LJ 03)  IE- 202138445
+CNPJ - 05,846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+CODDESCRICAO|QTD|UN| VL UN|VL TOTAL
+001 7898908222050 BOLAĆHA JUCURUTU 250G MANTEIG  F  6,49
+002 7891 152801842 BISCOITO RECH RICHESTER 125G  1.000UNx 6.49
+1.000UN X 3,19F  3.19
+003 7891152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN X 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT  1,000UN X  15,98 T20  15,98
+005 826 PAO BOMDIA FRÁNCES KG  0,678KG X  12,99  8,81
+QTDE. TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "OpS-Z60'65 dag- NH/eeN", "x": 1156.0, "y": 189.0, "h": 115.0, "w": 587.0}, {"text": "MEDEIROS E MAIA LTDA (LJ 03)", "x": 762.0, "y": 895.0, "h": 115.0, "w": 826.0}, {"text": "CNPJ - 05,846.413/0005-39", "x": 781.0, "y": 956.0, "h": 116.0, "w": 739.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 785.0, "y": 1015.0, "h": 115.0, "w": 754.0}, {"text": "POTENGI - NATAL - RN", "x": 773.0, "y": 1091.0, "h": 90.0, "w": 590.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 998.0, "y": 1173.0, "h": 115.0, "w": 952.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1133.0, "y": 1240.0, "h": 98.0, "w": 714.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1158.0, "y": 1362.0, "h": 98.0, "w": 660.0}, {"text": "Pendente de autorizacao", "x": 1145.0, "y": 1429.0, "h": 88.0, "w": 677.0}, {"text": "CODDESCRICAO|QTD|UN| VL UN|VL TOTAL", "x": 891.0, "y": 1534.0, "h": 123.0, "w": 986.0}, {"text": "IE- 202138445", "x": 1782.0, "y": 930.0, "h": 72.0, "w": 413.0}, {"text": "001 7898908222050 BOLAĆHA JUCURUTU 250G MANTEIG", "x": 840.0, "y": 1583.0, "h": 118.0, "w": 1344.0}, {"text": "1.000UNx 6.49", "x": 942.0, "y": 1678.0, "h": 73.0, "w": 538.0}, {"text": "002 7891 152801842 BISCOITO RECH RICHESTER 125G", "x": 845.0, "y": 1698.0, "h": 114.0, "w": 1315.0}, {"text": "1.000UN X 3,19F", "x": 942.0, "y": 1769.0, "h": 103.0, "w": 713.0}, {"text": "F", "x": 1631.0, "y": 1672.0, "h": 47.0, "w": 22.0}, {"text": "1,000UN X 3,19 F", "x": 943.0, "y": 1892.0, "h": 70.0, "w": 713.0}, {"text": "rFISCAL SAVCEEE", "x": 2085.0, "y": 171.0, "h": 407.0, "w": 50.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 808.0, "y": 2240.0, "h": 64.0, "w": 583.0}, {"text": "VALOR TOTAL R$", "x": 775.0, "y": 2295.0, "h": 66.0, "w": 431.0}, {"text": "VALOR A PAGAR R$", "x": 774.0, "y": 2358.0, "h": 66.0, "w": 492.0}, {"text": "FORMA PAGAMENTO", "x": 776.0, "y": 2426.0, "h": 60.0, "w": 459.0}, {"text": "TEF", "x": 780.0, "y": 2485.0, "h": 55.0, "w": 85.0}, {"text": "003 7891152801842 BIŚCOITO RECH RICHESTER 125G", "x": 830.0, "y": 1808.0, "h": 106.0, "w": 1337.0}, {"text": "6,49", "x": 2093.0, "y": 1643.0, "h": 62.0, "w": 125.0}, {"text": "3.19", "x": 2108.0, "y": 1757.0, "h": 51.0, "w": 115.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 820.0, "y": 1913.0, "h": 119.0, "w": 1406.0}, {"text": "1,000UN X", "x": 926.0, "y": 2007.0, "h": 69.0, "w": 270.0}, {"text": "15,98 T20", "x": 1390.0, "y": 1994.0, "h": 75.0, "w": 296.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 796.0, "y": 2057.0, "h": 75.0, "w": 859.0}, {"text": "0,678KG X", "x": 911.0, "y": 2126.0, "h": 63.0, "w": 268.0}, {"text": "12,99", "x": 1371.0, "y": 2120.0, "h": 67.0, "w": 140.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1133.0, "y": 2592.0, "h": 70.0, "w": 724.0}, {"text": "Pendente de autorizacao", "x": 1127.0, "y": 2659.0, "h": 52.0, "w": 736.0}, {"text": "15,98", "x": 2093.0, "y": 1983.0, "h": 57.0, "w": 140.0}, {"text": "8,81", "x": 2124.0, "y": 2103.0, "h": 56.0, "w": 112.0}, {"text": "005", "x": 2160.0, "y": 2223.0, "h": 64.0, "w": 91.0}, {"text": "37,66", "x": 2098.0, "y": 2280.0, "h": 70.0, "w": 154.0}, {"text": "37,66", "x": 2101.0, "y": 2344.0, "h": 66.0, "w": 153.0}, {"text": "VALOR PAGO R$", "x": 1854.0, "y": 2404.0, "h": 71.0, "w": 400.0}, {"text": "37,66", "x": 2106.0, "y": 2466.0, "h": 69.0, "w": 153.0}]
+
+===== url=None | linhas=39 =====
+--- texto cru ---
+Ops-Z60'65 deg- NH/een
+eEZ9 'seuuasesey ouopisəld eny
+Fa pe 9 u
+MEDEIROSE MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN|VL UNJVL TOTAL
+0,678KG X
+dn s
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UN X 6,49E
+IE - 202138445
+12,99
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+002 7891152801842 BISCOITO RECH RICHESTER 125G
+1,000UNx 3,19 F
+O03 7691152801842 BİSCOITO RECH RICHESTER 1256
+1,000UN x 3.19 F
+004 7896045104147 ACHOčOLATADO EM PO ACHOCOLẪt
+1,000UN x 15,98 T20
+005 826 PAO BOMDIA FRÅNCES KG
+ODOSAVCF-E
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3,19
+3,19
+15,98
+8,81
+VALOR PAGO R$
+--- reconstruido ---
+Ops-Z60'65 deg- NH/een
+eEZ9 'seuuasesey ouopisəld eny  ODOSAVCF-E
+Fa pe 9 u  dn s
+CNPJ - 05.846.413/0005-39  MEDEIROSE MAIA LTDA (LJ 03)  IE - 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL - RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO |QTD|UN|VL UNJVL TOTAL
+001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG
+1,000UN X 6,49E  6,49
+002 7891152801842 BISCOITO RECH RICHESTER 125G
+1,000UNx 3,19 F  3,19
+O03 7691152801842 BİSCOITO RECH RICHESTER 1256
+1,000UN x 3.19 F  3,19
+004 7896045104147 ACHOčOLATADO EM PO ACHOCOLẪt
+1,000UN x 15,98 T20  15,98
+005 826 PAO BOMDIA FRÅNCES KG
+0,678KG X  12,99  8,81
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO  TEF  VALOR PAGO R$
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "Ops-Z60'65 deg- NH/een", "x": 1280.0, "y": 317.0, "h": 92.0, "w": 537.0}, {"text": "eEZ9 'seuuasesey ouopisəld eny", "x": 1210.0, "y": 376.0, "h": 102.0, "w": 768.0}, {"text": "Fa pe 9 u", "x": 1027.0, "y": 474.0, "h": 106.0, "w": 615.0}, {"text": "MEDEIROSE MAIA LTDA (LJ 03)", "x": 931.0, "y": 974.0, "h": 89.0, "w": 726.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 930.0, "y": 1031.0, "h": 82.0, "w": 654.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 932.0, "y": 1085.0, "h": 83.0, "w": 675.0}, {"text": "POTENGI - NATAL - RN", "x": 918.0, "y": 1146.0, "h": 76.0, "w": 528.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1120.0, "y": 1237.0, "h": 83.0, "w": 864.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1263.0, "y": 1295.0, "h": 74.0, "w": 615.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1236.0, "y": 1405.0, "h": 72.0, "w": 612.0}, {"text": "Pendente de autorizacao", "x": 1238.0, "y": 1466.0, "h": 59.0, "w": 609.0}, {"text": "#|COD|DESCRICAO |QTD|UN|VL UNJVL TOTAL", "x": 959.0, "y": 1571.0, "h": 62.0, "w": 942.0}, {"text": "0,678KG X", "x": 1018.0, "y": 2067.0, "h": 57.0, "w": 233.0}, {"text": "dn s", "x": 1859.0, "y": 451.0, "h": 84.0, "w": 223.0}, {"text": "001 7898908222050 BOLACHA JUCURUTU 250G MANTEIG", "x": 969.0, "y": 1619.0, "h": 62.0, "w": 1203.0}, {"text": "1,000UN X 6,49E", "x": 1054.0, "y": 1664.0, "h": 76.0, "w": 635.0}, {"text": "IE - 202138445", "x": 1846.0, "y": 1015.0, "h": 67.0, "w": 364.0}, {"text": "12,99", "x": 1418.0, "y": 2081.0, "h": 54.0, "w": 123.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 919.0, "y": 2157.0, "h": 80.0, "w": 510.0}, {"text": "VALOR TOTAL R$", "x": 894.0, "y": 2213.0, "h": 74.0, "w": 371.0}, {"text": "VALOR A PAGAR R$", "x": 891.0, "y": 2265.0, "h": 76.0, "w": 424.0}, {"text": "FORMA PAGAMENTO", "x": 890.0, "y": 2321.0, "h": 70.0, "w": 397.0}, {"text": "TEF", "x": 891.0, "y": 2374.0, "h": 49.0, "w": 70.0}, {"text": "002 7891152801842 BISCOITO RECH RICHESTER 125G", "x": 965.0, "y": 1722.0, "h": 59.0, "w": 1179.0}, {"text": "1,000UNx 3,19 F", "x": 1052.0, "y": 1777.0, "h": 51.0, "w": 633.0}, {"text": "O03 7691152801842 BİSCOITO RECH RICHESTER 1256", "x": 953.0, "y": 1818.0, "h": 63.0, "w": 1190.0}, {"text": "1,000UN x 3.19 F", "x": 1030.0, "y": 1866.0, "h": 68.0, "w": 651.0}, {"text": "004 7896045104147 ACHOčOLATADO EM PO ACHOCOLẪt", "x": 928.0, "y": 1912.0, "h": 71.0, "w": 1207.0}, {"text": "1,000UN x 15,98 T20", "x": 1032.0, "y": 1967.0, "h": 67.0, "w": 671.0}, {"text": "005 826 PAO BOMDIA FRÅNCES KG", "x": 916.0, "y": 2009.0, "h": 76.0, "w": 759.0}, {"text": "ODOSAVCF-E", "x": 2118.0, "y": 293.0, "h": 344.0, "w": 61.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1195.0, "y": 2490.0, "h": 70.0, "w": 627.0}, {"text": "Pendente de autorizacao", "x": 1184.0, "y": 2543.0, "h": 71.0, "w": 643.0}, {"text": "6,49", "x": 2094.0, "y": 1675.0, "h": 54.0, "w": 105.0}, {"text": "3,19", "x": 2093.0, "y": 1777.0, "h": 53.0, "w": 105.0}, {"text": "3,19", "x": 2091.0, "y": 1882.0, "h": 48.0, "w": 104.0}, {"text": "15,98", "x": 2066.0, "y": 1982.0, "h": 54.0, "w": 127.0}, {"text": "8,81", "x": 2089.0, "y": 2092.0, "h": 53.0, "w": 100.0}, {"text": "VALOR PAGO R$", "x": 1847.0, "y": 2353.0, "h": 67.0, "w": 343.0}]
+
+===== url=None | linhas=43 =====
+--- texto cru ---
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0008-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#COD|DESCRICAO| QTD |UNIVL UNIVL TOTAL
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG
+F
+0,678KG x
+IE- 202138445
+1,000UN x 6,49
+002 7891152801842 BISCOITO RECH RICHESTER 1256
+3,19F
+1.000UN X
+003 7691 152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN X 3, 19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98
+005 826 PAO BOMDIA FRANCES KG
+12,99
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+URMA PAGAMENTO
+TEF
+F
+T20
+F
+6,49
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+--- reconstruido ---
+CNPJ - 05.846.413/0008-39  MEDEIROS E MAIA LTDA (LJ 03)  IE- 202138445
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#COD|DESCRICAO| QTD |UNIVL UNIVL TOTAL
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG  F  6,49
+002 7891152801842 BISCOITO RECH RICHESTER 1256  1,000UN x 6,49  3,19
+1.000UN X  3,19F
+003 7691 152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN X 3, 19  F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98  T20  15,98
+005 826 PAO BOMDIA FRANCES KG  0,678KG x  12,99  F  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+URMA PAGAMENTO  VALOR PAGO R$  37,66
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "MEDEIROS E MAIA LTDA (LJ 03)", "x": 840.0, "y": 866.0, "h": 88.0, "w": 802.0}, {"text": "CNPJ - 05.846.413/0008-39", "x": 823.0, "y": 916.0, "h": 86.0, "w": 735.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 818.0, "y": 967.0, "h": 84.0, "w": 769.0}, {"text": "POTENGI - NATAL RN", "x": 797.0, "y": 1015.0, "h": 85.0, "w": 608.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1000.0, "y": 1085.0, "h": 98.0, "w": 1039.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1156.0, "y": 1136.0, "h": 95.0, "w": 760.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1158.0, "y": 1242.0, "h": 104.0, "w": 732.0}, {"text": "Pendente de autorizacao", "x": 1161.0, "y": 1306.0, "h": 101.0, "w": 732.0}, {"text": "#COD|DESCRICAO| QTD |UNIVL UNIVL TOTAL", "x": 796.0, "y": 1425.0, "h": 137.0, "w": 1162.0}, {"text": "001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG", "x": 809.0, "y": 1470.0, "h": 151.0, "w": 1483.0}, {"text": "F", "x": 1700.0, "y": 1563.0, "h": 50.0, "w": 15.0}, {"text": "0,678KG x", "x": 908.0, "y": 2056.0, "h": 74.0, "w": 294.0}, {"text": "IE- 202138445", "x": 1839.0, "y": 898.0, "h": 69.0, "w": 419.0}, {"text": "1,000UN x 6,49", "x": 953.0, "y": 1580.0, "h": 87.0, "w": 568.0}, {"text": "002 7891152801842 BISCOITO RECH RICHESTER 1256", "x": 816.0, "y": 1589.0, "h": 136.0, "w": 1467.0}, {"text": "3,19F", "x": 1395.0, "y": 1667.0, "h": 76.0, "w": 319.0}, {"text": "1.000UN X", "x": 925.0, "y": 1695.0, "h": 68.0, "w": 274.0}, {"text": "003 7691 152801842 BIŚCOITO RECH RICHESTER 125G", "x": 774.0, "y": 1710.0, "h": 109.0, "w": 1496.0}, {"text": "1,000UN X 3, 19", "x": 934.0, "y": 1792.0, "h": 84.0, "w": 602.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 767.0, "y": 1831.0, "h": 108.0, "w": 1537.0}, {"text": "1,000UN X 15,98", "x": 938.0, "y": 1915.0, "h": 87.0, "w": 618.0}, {"text": "005 826 PAO BOMDIA FRANCES KG", "x": 772.0, "y": 1976.0, "h": 85.0, "w": 951.0}, {"text": "12,99", "x": 1407.0, "y": 2048.0, "h": 70.0, "w": 152.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 768.0, "y": 2181.0, "h": 74.0, "w": 664.0}, {"text": "VALOR TOTAL R$", "x": 768.0, "y": 2248.0, "h": 79.0, "w": 467.0}, {"text": "VALOR A PAGAR R$", "x": 769.0, "y": 2312.0, "h": 79.0, "w": 532.0}, {"text": "URMA PAGAMENTO", "x": 769.0, "y": 2361.0, "h": 118.0, "w": 507.0}, {"text": "TEF", "x": 775.0, "y": 2452.0, "h": 65.0, "w": 94.0}, {"text": "F", "x": 1701.0, "y": 1788.0, "h": 71.0, "w": 21.0}, {"text": "T20", "x": 1662.0, "y": 1910.0, "h": 73.0, "w": 92.0}, {"text": "F", "x": 1734.0, "y": 2045.0, "h": 59.0, "w": 26.0}, {"text": "6,49", "x": 2193.0, "y": 1533.0, "h": 69.0, "w": 128.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1173.0, "y": 2561.0, "h": 78.0, "w": 773.0}, {"text": "Pendente de autorizacao", "x": 1167.0, "y": 2631.0, "h": 73.0, "w": 785.0}, {"text": "3,19", "x": 2155.0, "y": 1646.0, "h": 73.0, "w": 174.0}, {"text": "3,19", "x": 2205.0, "y": 1781.0, "h": 61.0, "w": 129.0}, {"text": "15,98", "x": 2194.0, "y": 1900.0, "h": 65.0, "w": 150.0}, {"text": "8,81", "x": 2231.0, "y": 2032.0, "h": 63.0, "w": 119.0}, {"text": "005", "x": 2268.0, "y": 2162.0, "h": 59.0, "w": 95.0}, {"text": "37,66", "x": 2199.0, "y": 2225.0, "h": 67.0, "w": 161.0}, {"text": "37,66", "x": 2199.0, "y": 2283.0, "h": 74.0, "w": 158.0}, {"text": "VALOR PAGO R$", "x": 1937.0, "y": 2355.0, "h": 80.0, "w": 421.0}, {"text": "37,66", "x": 2193.0, "y": 2414.0, "h": 73.0, "w": 167.0}]
+
+===== url=None | linhas=45 =====
+--- texto cru ---
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+NATAL RN
+POTENGI
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO| QTD|UN VL UN|VL TOTAL
+IE - 202138445
+12,99
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+PGUP
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG
+6.49
+1,000UN
+D02 769i152801842 BISCOITO RECH RICHESTER 1256
+1.000UN X 3,19F
+003 7691i152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN X 3,19F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLAÍT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X
+Alt
+MD
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+PGUIN
+Fn
+--- reconstruido ---
+PGUP  PGUIN
+Alt  Fn
+MD
+CNPJ - 05.846.413/0005-39  MEDEIROS E MAIA LTDA (LJ 03)  IE - 202138445
+POTENGI  RUA SENHOR DO BONFIM, 5229  NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO| QTD|UN VL UN|VL TOTAL
+001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG  6,49
+D02 769i152801842 BISCOITO RECH RICHESTER 1256  1,000UN  6.49
+1.000UN X 3,19F  3,19
+003 7691i152801842 BIŚCOITO RECH RICHESTER 125G  1,000UN X 3,19F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLAÍT  1,000UN X 15,98 T20  15,98
+005 826 PAO BOMDIA FRÁNCES KG  0,678KG X  12,99  8,81
+QTDE. TOTAL DE ITENS  37,66  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  VALOR PAGO R$
+FORMA PAGAMENTO  37,66
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+--- geometria ---
+[{"text": "MEDEIROS E MAIA LTDA (LJ 03)", "x": 906.0, "y": 1039.0, "h": 77.0, "w": 718.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 899.0, "y": 1083.0, "h": 76.0, "w": 659.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 886.0, "y": 1129.0, "h": 75.0, "w": 691.0}, {"text": "NATAL RN", "x": 1145.0, "y": 1184.0, "h": 45.0, "w": 265.0}, {"text": "POTENGI", "x": 871.0, "y": 1196.0, "h": 51.0, "w": 186.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1054.0, "y": 1241.0, "h": 83.0, "w": 913.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1194.0, "y": 1288.0, "h": 80.0, "w": 673.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1206.0, "y": 1383.0, "h": 93.0, "w": 634.0}, {"text": "Pendente de autorizacao", "x": 1197.0, "y": 1443.0, "h": 84.0, "w": 646.0}, {"text": "#|COD|DESCRICAO| QTD|UN VL UN|VL TOTAL", "x": 896.0, "y": 1546.0, "h": 114.0, "w": 1008.0}, {"text": "IE - 202138445", "x": 1799.0, "y": 1075.0, "h": 50.0, "w": 373.0}, {"text": "12,99", "x": 1420.0, "y": 2100.0, "h": 60.0, "w": 134.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 861.0, "y": 2216.0, "h": 76.0, "w": 581.0}, {"text": "VALOR TOTAL R$", "x": 860.0, "y": 2272.0, "h": 79.0, "w": 410.0}, {"text": "VALOR A PAGAR R$", "x": 861.0, "y": 2329.0, "h": 80.0, "w": 468.0}, {"text": "FORMA PAGAMENTO", "x": 864.0, "y": 2392.0, "h": 73.0, "w": 437.0}, {"text": "TEF", "x": 868.0, "y": 2460.0, "h": 53.0, "w": 82.0}, {"text": "PGUP", "x": 2162.0, "y": 0.0, "h": 61.0, "w": 144.0}, {"text": "001 7898908222050 BOLAČHA JUČURUTU 250G MANTEIG", "x": 871.0, "y": 1583.0, "h": 134.0, "w": 1318.0}, {"text": "6.49", "x": 1409.0, "y": 1683.0, "h": 48.0, "w": 107.0}, {"text": "1,000UN", "x": 996.0, "y": 1700.0, "h": 61.0, "w": 186.0}, {"text": "D02 769i152801842 BISCOITO RECH RICHESTER 1256", "x": 871.0, "y": 1690.0, "h": 119.0, "w": 1299.0}, {"text": "1.000UN X 3,19F", "x": 990.0, "y": 1763.0, "h": 93.0, "w": 699.0}, {"text": "003 7691i152801842 BIŚCOITO RECH RICHESTER 125G", "x": 859.0, "y": 1798.0, "h": 101.0, "w": 1317.0}, {"text": "1,000UN X 3,19F", "x": 989.0, "y": 1870.0, "h": 74.0, "w": 705.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLAÍT", "x": 854.0, "y": 1905.0, "h": 100.0, "w": 1362.0}, {"text": "1,000UN X 15,98 T20", "x": 982.0, "y": 1978.0, "h": 84.0, "w": 741.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 862.0, "y": 2032.0, "h": 85.0, "w": 834.0}, {"text": "0,678KG X", "x": 982.0, "y": 2103.0, "h": 71.0, "w": 256.0}, {"text": "Alt", "x": 2167.0, "y": 269.0, "h": 104.0, "w": 93.0}, {"text": "MD", "x": 2156.0, "y": 405.0, "h": 91.0, "w": 119.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1220.0, "y": 2541.0, "h": 81.0, "w": 667.0}, {"text": "Pendente de autorizaca0", "x": 1217.0, "y": 2605.0, "h": 71.0, "w": 674.0}, {"text": "6,49", "x": 2112.0, "y": 1644.0, "h": 55.0, "w": 110.0}, {"text": "3,19", "x": 2121.0, "y": 1752.0, "h": 52.0, "w": 106.0}, {"text": "3,19", "x": 2129.0, "y": 1861.0, "h": 59.0, "w": 104.0}, {"text": "15,98", "x": 2111.0, "y": 1971.0, "h": 54.0, "w": 129.0}, {"text": "8,81", "x": 2140.0, "y": 2085.0, "h": 55.0, "w": 104.0}, {"text": "005", "x": 2171.0, "y": 2198.0, "h": 51.0, "w": 84.0}, {"text": "37,66", "x": 2111.0, "y": 2253.0, "h": 58.0, "w": 139.0}, {"text": "37,66", "x": 2111.0, "y": 2304.0, "h": 64.0, "w": 141.0}, {"text": "VALOR PAGO R$", "x": 1883.0, "y": 2355.0, "h": 84.0, "w": 376.0}, {"text": "37,66", "x": 2113.0, "y": 2417.0, "h": 59.0, "w": 135.0}, {"text": "PGUIN", "x": 2557.0, "y": -4.0, "h": 40.0, "w": 146.0}, {"text": "Fn", "x": 2626.0, "y": 262.0, "h": 72.0, "w": 111.0}]
+
+===== url=None | linhas=49 =====
+--- texto cru ---
+B
+M
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+5229
+RUA SENHOR DO BONFIM
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+003
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO|QTD| UN VL UN|VL TOTAL
+IE - 202138445
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+PGUP
+F
+Alt
+001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG
+1.000UN x RPSCOTTO RECH RICHESTER 1256
+002 7691 152801842
+3,19 F
+M)
+91152801842 BIŚCOITO RECH RICHESTER 125G
+1,000UN x 3,19 F
+004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT
+1,000UN
+X15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X
+12,99
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+PGDN
+Fn
+--- reconstruido ---
+M  PGUP  PGDN
+B
+Fn
+Alt
+M)
+MEDEIROS E MAIA LTDA (LJ 03)  IE - 202138445
+RUA SENHOR DO BONFIM  CNPJ - 05.846.413/0005-39  5229
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL  DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO|QTD| UN VL UN|VL TOTAL  001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG  6,49
+002 7691 152801842  1.000UN x RPSCOTTO RECH RICHESTER 1256  3,19 F  3,19
+003  1,000UN x 3,19 F  91152801842 BIŚCOITO RECH RICHESTER 125G  3,19
+004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT  1,000UN  X15,98 T20  15,98
+005 826 PAO BOMDIA FRÁNCES KG  0,678KG X  12,99  F  8,81
+QTDE, TOTAL DE ITENS  37,66  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  FORMA PAGAMENTO  VALOR PAGO R$  37,66
+TEF
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+--- geometria ---
+[{"text": "B", "x": 526.0, "y": 99.0, "h": 82.0, "w": 73.0}, {"text": "M", "x": 1297.0, "y": -5.0, "h": 85.0, "w": 86.0}, {"text": "MEDEIROS E MAIA LTDA (LJ 03)", "x": 898.0, "y": 1059.0, "h": 98.0, "w": 697.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 902.0, "y": 1110.0, "h": 96.0, "w": 621.0}, {"text": "5229", "x": 1439.0, "y": 1150.0, "h": 54.0, "w": 111.0}, {"text": "RUA SENHOR DO BONFIM", "x": 878.0, "y": 1168.0, "h": 87.0, "w": 520.0}, {"text": "POTENGI - NATAL RN", "x": 880.0, "y": 1200.0, "h": 94.0, "w": 518.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1054.0, "y": 1252.0, "h": 110.0, "w": 883.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1186.0, "y": 1303.0, "h": 99.0, "w": 648.0}, {"text": "003", "x": 892.0, "y": 1877.0, "h": 38.0, "w": 79.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1192.0, "y": 1401.0, "h": 104.0, "w": 616.0}, {"text": "Pendente de autorizacao", "x": 1195.0, "y": 1453.0, "h": 101.0, "w": 619.0}, {"text": "#|COD|DESCRICAO|QTD| UN VL UN|VL TOTAL", "x": 903.0, "y": 1556.0, "h": 135.0, "w": 970.0}, {"text": "IE - 202138445", "x": 1765.0, "y": 1070.0, "h": 73.0, "w": 364.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 899.0, "y": 2204.0, "h": 86.0, "w": 549.0}, {"text": "VALOR TOTAL R$", "x": 902.0, "y": 2265.0, "h": 77.0, "w": 383.0}, {"text": "VALOR A PAGAR R$", "x": 904.0, "y": 2315.0, "h": 81.0, "w": 439.0}, {"text": "FORMA PAGAMENTO", "x": 912.0, "y": 2377.0, "h": 71.0, "w": 409.0}, {"text": "TEF", "x": 916.0, "y": 2447.0, "h": 49.0, "w": 72.0}, {"text": "PGUP", "x": 2083.0, "y": 27.0, "h": 61.0, "w": 142.0}, {"text": "F", "x": 1693.0, "y": 2089.0, "h": 42.0, "w": 20.0}, {"text": "Alt", "x": 2042.0, "y": 309.0, "h": 88.0, "w": 136.0}, {"text": "001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG", "x": 910.0, "y": 1582.0, "h": 163.0, "w": 1242.0}, {"text": "1.000UN x RPSCOTTO RECH RICHESTER 1256", "x": 1012.0, "y": 1683.0, "h": 113.0, "w": 1121.0}, {"text": "002 7691 152801842", "x": 898.0, "y": 1747.0, "h": 89.0, "w": 442.0}, {"text": "3,19 F", "x": 1403.0, "y": 1775.0, "h": 61.0, "w": 266.0}, {"text": "M)", "x": 2086.0, "y": 431.0, "h": 92.0, "w": 116.0}, {"text": "91152801842 BIŚCOITO RECH RICHESTER 125G", "x": 1072.0, "y": 1790.0, "h": 117.0, "w": 1068.0}, {"text": "1,000UN x 3,19 F", "x": 998.0, "y": 1870.0, "h": 91.0, "w": 686.0}, {"text": "004 7896045104147 ACÁOCOLATADO EM PO ACHOCOLATT", "x": 901.0, "y": 1896.0, "h": 124.0, "w": 1272.0}, {"text": "1,000UN", "x": 1023.0, "y": 2000.0, "h": 66.0, "w": 181.0}, {"text": "X15,98 T20", "x": 1172.0, "y": 1976.0, "h": 83.0, "w": 536.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 895.0, "y": 2028.0, "h": 99.0, "w": 789.0}, {"text": "0,678KG X", "x": 1009.0, "y": 2107.0, "h": 66.0, "w": 243.0}, {"text": "12,99", "x": 1420.0, "y": 2096.0, "h": 57.0, "w": 130.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1246.0, "y": 2504.0, "h": 87.0, "w": 628.0}, {"text": "Pendente de autorizacao", "x": 1245.0, "y": 2565.0, "h": 77.0, "w": 634.0}, {"text": "6,49", "x": 2075.0, "y": 1637.0, "h": 66.0, "w": 109.0}, {"text": "3,19", "x": 2086.0, "y": 1745.0, "h": 51.0, "w": 104.0}, {"text": "3,19", "x": 2094.0, "y": 1852.0, "h": 50.0, "w": 99.0}, {"text": "15,98", "x": 2077.0, "y": 1957.0, "h": 53.0, "w": 127.0}, {"text": "8,81", "x": 2107.0, "y": 2066.0, "h": 53.0, "w": 89.0}, {"text": "005", "x": 2139.0, "y": 2174.0, "h": 49.0, "w": 77.0}, {"text": "37,66", "x": 2081.0, "y": 2224.0, "h": 61.0, "w": 137.0}, {"text": "37,66", "x": 2083.0, "y": 2276.0, "h": 58.0, "w": 135.0}, {"text": "VALOR PAGO R$", "x": 1866.0, "y": 2320.0, "h": 82.0, "w": 353.0}, {"text": "37,66", "x": 2087.0, "y": 2378.0, "h": 57.0, "w": 129.0}, {"text": "PGDN", "x": 2472.0, "y": -5.0, "h": 47.0, "w": 146.0}, {"text": "Fn", "x": 2547.0, "y": 264.0, "h": 76.0, "w": 111.0}]
+
+===== url=None | linhas=44 =====
+--- texto cru ---
+MEDEIROS E MAIA LTDA (LJ 03)
+CNPJ - 05.846.413/0005-39
+RUA SENHOR DO BONFIM, 5229
+POTENGI - NATAL
+RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD| DESCRICAO|QTD |UN|VL UN|VL TOTAL
+0,678KG X
+IE - 202138445
+12,99F
+001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG
+F
+1,000UNx 6,49
+002 7891152801842 BIŚC0ITO RECH RICHESTER 1256
+1.000UN X
+3,19 F
+003 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN x 3,19F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÁNCES KG
+QTDE, TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+Alt
+M
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+6,49
+3,19
+3,19
+15,98
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+Fn
+--- reconstruido ---
+Alt  Fn
+M
+CNPJ - 05.846.413/0005-39  MEDEIROS E MAIA LTDA (LJ 03)  IE - 202138445
+POTENGI - NATAL  RUA SENHOR DO BONFIM, 5229  RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD| DESCRICAO|QTD |UN|VL UN|VL TOTAL
+001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG  F  6,49
+002 7891152801842 BIŚC0ITO RECH RICHESTER 1256  1,000UNx 6,49
+1.000UN X  3,19 F  3,19
+003 7691152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN x 3,19F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20  15,98
+005 826 PAO BOMDIA FRÁNCES KG
+0,678KG X  12,99F  8,81
+QTDE, TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66  37,66
+VALOR A PAGAR R$  VALOR PAGO R$
+FORMA PAGAMENTO  TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+--- geometria ---
+[{"text": "MEDEIROS E MAIA LTDA (LJ 03)", "x": 906.0, "y": 1012.0, "h": 78.0, "w": 712.0}, {"text": "CNPJ - 05.846.413/0005-39", "x": 903.0, "y": 1062.0, "h": 75.0, "w": 641.0}, {"text": "RUA SENHOR DO BONFIM, 5229", "x": 906.0, "y": 1104.0, "h": 79.0, "w": 663.0}, {"text": "POTENGI - NATAL", "x": 883.0, "y": 1162.0, "h": 62.0, "w": 392.0}, {"text": "RN", "x": 1359.0, "y": 1156.0, "h": 47.0, "w": 47.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1059.0, "y": 1223.0, "h": 80.0, "w": 895.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1194.0, "y": 1269.0, "h": 79.0, "w": 655.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1206.0, "y": 1365.0, "h": 89.0, "w": 617.0}, {"text": "Pendente de autorizacao", "x": 1197.0, "y": 1426.0, "h": 79.0, "w": 628.0}, {"text": "#|COD| DESCRICAO|QTD |UN|VL UN|VL TOTAL", "x": 902.0, "y": 1527.0, "h": 106.0, "w": 974.0}, {"text": "0,678KG X", "x": 990.0, "y": 2067.0, "h": 62.0, "w": 245.0}, {"text": "IE - 202138445", "x": 1790.0, "y": 1049.0, "h": 55.0, "w": 370.0}, {"text": "12,99F", "x": 1406.0, "y": 2058.0, "h": 65.0, "w": 295.0}, {"text": "001 7898908222050 BOLACHA JUČURUTU 250G MANTEIG", "x": 900.0, "y": 1566.0, "h": 121.0, "w": 1261.0}, {"text": "F", "x": 1646.0, "y": 1653.0, "h": 38.0, "w": 20.0}, {"text": "1,000UNx 6,49", "x": 1004.0, "y": 1658.0, "h": 77.0, "w": 501.0}, {"text": "002 7891152801842 BIŚC0ITO RECH RICHESTER 1256", "x": 887.0, "y": 1672.0, "h": 106.0, "w": 1251.0}, {"text": "1.000UN X", "x": 999.0, "y": 1757.0, "h": 54.0, "w": 230.0}, {"text": "3,19 F", "x": 1413.0, "y": 1742.0, "h": 56.0, "w": 261.0}, {"text": "003 7691152801842 BIŚCOITO RECH RICHESTER 1256", "x": 873.0, "y": 1776.0, "h": 91.0, "w": 1290.0}, {"text": "1,000UN x 3,19F", "x": 985.0, "y": 1843.0, "h": 67.0, "w": 686.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 863.0, "y": 1886.0, "h": 82.0, "w": 1306.0}, {"text": "1,000UN X 15,98 T20", "x": 990.0, "y": 1944.0, "h": 82.0, "w": 708.0}, {"text": "005 826 PAO BOMDIA FRÁNCES KG", "x": 875.0, "y": 2002.0, "h": 69.0, "w": 796.0}, {"text": "QTDE, TOTAL DE ITENS", "x": 872.0, "y": 2170.0, "h": 72.0, "w": 555.0}, {"text": "VALOR TOTAL R$", "x": 893.0, "y": 2227.0, "h": 68.0, "w": 370.0}, {"text": "VALOR A PAGAR R$", "x": 877.0, "y": 2281.0, "h": 64.0, "w": 438.0}, {"text": "FORMA PAGAMENTO", "x": 883.0, "y": 2340.0, "h": 63.0, "w": 408.0}, {"text": "TEF", "x": 884.0, "y": 2400.0, "h": 49.0, "w": 76.0}, {"text": "Alt", "x": 2090.0, "y": 253.0, "h": 105.0, "w": 150.0}, {"text": "M", "x": 2136.0, "y": 387.0, "h": 93.0, "w": 126.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1212.0, "y": 2486.0, "h": 74.0, "w": 635.0}, {"text": "Pendente de autorizaca0", "x": 1210.0, "y": 2544.0, "h": 63.0, "w": 640.0}, {"text": "6,49", "x": 2084.0, "y": 1625.0, "h": 56.0, "w": 109.0}, {"text": "3,19", "x": 2090.0, "y": 1720.0, "h": 63.0, "w": 105.0}, {"text": "3,19", "x": 2094.0, "y": 1839.0, "h": 57.0, "w": 103.0}, {"text": "15,98", "x": 2074.0, "y": 1947.0, "h": 52.0, "w": 126.0}, {"text": "8,81", "x": 2100.0, "y": 2057.0, "h": 54.0, "w": 99.0}, {"text": "005", "x": 2126.0, "y": 2167.0, "h": 49.0, "w": 80.0}, {"text": "37,66", "x": 2068.0, "y": 2220.0, "h": 55.0, "w": 135.0}, {"text": "37,66", "x": 2066.0, "y": 2261.0, "h": 61.0, "w": 135.0}, {"text": "VALOR PAGO R$", "x": 1848.0, "y": 2317.0, "h": 61.0, "w": 352.0}, {"text": "37,66", "x": 2067.0, "y": 2375.0, "h": 53.0, "w": 132.0}, {"text": "Fn", "x": 2615.0, "y": 231.0, "h": 77.0, "w": 112.0}]
+
+===== url=None | linhas=44 =====
+--- texto cru ---
+MEDETROS E MATA LTDA (LJ 03)
+CNPJ - 05.846.413/00038-39
+RUA SENHOR DO BONFIM. 5229
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+IE 202138445
+#|COD|DESCRICAO|QTD|UN VL UNIVL TOTAL
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG
+6,49 F
+0,678KG X
+QTDE. TOTAL DE ITENS
+VALOR TOTAL R$
+VALOR A PAGAR R$
+FORMA PAGAMENTO
+TEF
+Alt
+1.000UNx
+002 7691152801842 BISCOITO RECH RICHESTER 125G
+1.000LUN X 3,19 F
+003 7891152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN x 3,19 F
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20
+005 826 PAO BOMDIA FRÅNCES KG
+12,99F
+PGUP
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+M
+6,49
+3,19
+3,19
+15,96
+8,81
+005
+37,66
+37,66
+VALOR PAGO R$
+37,66
+PGDN
+Fn
+--- reconstruido ---
+PGUP  PGDN
+Alt  Fn
+M
+MEDETROS E MATA LTDA (LJ 03)
+CNPJ - 05.846.413/00038-39  IE 202138445
+RUA SENHOR DO BONFIM. 5229
+POTENGI - NATAL RN
+DOCUMENTO AUXILIAR DA NOTA FISCAL
+DE CONSUMIDOR ELETRONICA
+EMITIDA EM CONTINGENCIA
+Pendente de autorizacao
+#|COD|DESCRICAO|QTD|UN VL UNIVL TOTAL
+001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG
+1.000UNx  6,49 F  6,49
+002 7691152801842 BISCOITO RECH RICHESTER 125G
+1.000LUN X 3,19 F  3,19
+003 7891152801842 BIŚCOITO RECH RICHESTER 1256
+1,000UN x 3,19 F  3,19
+004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT
+1,000UN X 15,98 T20  15,96
+005 826 PAO BOMDIA FRÅNCES KG
+0,678KG X  12,99F  8,81
+QTDE. TOTAL DE ITENS  005
+VALOR TOTAL R$  37,66
+VALOR A PAGAR R$  37,66
+FORMA PAGAMENTO  VALOR PAGO R$
+TEF  37,66
+EMITIDA EM CONTINGENCIA
+Pendente de autorizaca0
+--- geometria ---
+[{"text": "MEDETROS E MATA LTDA (LJ 03)", "x": 885.0, "y": 1028.0, "h": 60.0, "w": 761.0}, {"text": "CNPJ - 05.846.413/00038-39", "x": 873.0, "y": 1079.0, "h": 51.0, "w": 697.0}, {"text": "RUA SENHOR DO BONFIM. 5229", "x": 873.0, "y": 1123.0, "h": 53.0, "w": 727.0}, {"text": "POTENGI - NATAL RN", "x": 849.0, "y": 1167.0, "h": 53.0, "w": 581.0}, {"text": "DOCUMENTO AUXILIAR DA NOTA FISCAL", "x": 1070.0, "y": 1257.0, "h": 54.0, "w": 934.0}, {"text": "DE CONSUMIDOR ELETRONICA", "x": 1215.0, "y": 1302.0, "h": 56.0, "w": 685.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1221.0, "y": 1396.0, "h": 72.0, "w": 650.0}, {"text": "Pendente de autorizacao", "x": 1192.0, "y": 1457.0, "h": 70.0, "w": 688.0}, {"text": "IE 202138445", "x": 1826.0, "y": 1088.0, "h": 47.0, "w": 390.0}, {"text": "#|COD|DESCRICAO|QTD|UN VL UNIVL TOTAL", "x": 871.0, "y": 1570.0, "h": 86.0, "w": 1066.0}, {"text": "001 7898908222050 BOLAČHA JUCURUTU 250G MANTEIG", "x": 864.0, "y": 1619.0, "h": 95.0, "w": 1371.0}, {"text": "6,49 F", "x": 1432.0, "y": 1683.0, "h": 74.0, "w": 268.0}, {"text": "0,678KG X", "x": 952.0, "y": 2137.0, "h": 62.0, "w": 276.0}, {"text": "QTDE. TOTAL DE ITENS", "x": 819.0, "y": 2257.0, "h": 65.0, "w": 622.0}, {"text": "VALOR TOTAL R$", "x": 819.0, "y": 2315.0, "h": 71.0, "w": 456.0}, {"text": "VALOR A PAGAR R$", "x": 819.0, "y": 2375.0, "h": 69.0, "w": 498.0}, {"text": "FORMA PAGAMENTO", "x": 818.0, "y": 2441.0, "h": 66.0, "w": 468.0}, {"text": "TEF", "x": 817.0, "y": 2504.0, "h": 57.0, "w": 96.0}, {"text": "Alt", "x": 2207.0, "y": 274.0, "h": 72.0, "w": 128.0}, {"text": "1.000UNx", "x": 972.0, "y": 1709.0, "h": 54.0, "w": 259.0}, {"text": "002 7691152801842 BISCOITO RECH RICHESTER 125G", "x": 868.0, "y": 1733.0, "h": 78.0, "w": 1338.0}, {"text": "1.000LUN X 3,19 F", "x": 968.0, "y": 1782.0, "h": 77.0, "w": 738.0}, {"text": "003 7891152801842 BIŚCOITO RECH RICHESTER 1256", "x": 853.0, "y": 1841.0, "h": 61.0, "w": 1358.0}, {"text": "1,000UN x 3,19 F", "x": 946.0, "y": 1898.0, "h": 63.0, "w": 764.0}, {"text": "004 7896045104147 ACHOCOLATADO EM PO ACHOCOLATT", "x": 853.0, "y": 1954.0, "h": 65.0, "w": 1385.0}, {"text": "1,000UN X 15,98 T20", "x": 958.0, "y": 2011.0, "h": 72.0, "w": 786.0}, {"text": "005 826 PAO BOMDIA FRÅNCES KG", "x": 823.0, "y": 2072.0, "h": 65.0, "w": 891.0}, {"text": "12,99F", "x": 1419.0, "y": 2133.0, "h": 64.0, "w": 323.0}, {"text": "PGUP", "x": 2257.0, "y": 0.0, "h": 39.0, "w": 145.0}, {"text": "EMITIDA EM CONTINGENCIA", "x": 1196.0, "y": 2605.0, "h": 79.0, "w": 704.0}, {"text": "Pendente de autorizaca0", "x": 1193.0, "y": 2672.0, "h": 67.0, "w": 711.0}, {"text": "M", "x": 2247.0, "y": 402.0, "h": 72.0, "w": 112.0}, {"text": "6,49", "x": 2143.0, "y": 1682.0, "h": 57.0, "w": 115.0}, {"text": "3,19", "x": 2154.0, "y": 1789.0, "h": 60.0, "w": 111.0}, {"text": "3,19", "x": 2161.0, "y": 1904.0, "h": 58.0, "w": 105.0}, {"text": "15,96", "x": 2156.0, "y": 2008.0, "h": 71.0, "w": 117.0}, {"text": "8,81", "x": 2170.0, "y": 2136.0, "h": 57.0, "w": 106.0}, {"text": "005", "x": 2198.0, "y": 2256.0, "h": 52.0, "w": 86.0}, {"text": "37,66", "x": 2133.0, "y": 2311.0, "h": 61.0, "w": 149.0}, {"text": "37,66", "x": 2131.0, "y": 2364.0, "h": 68.0, "w": 148.0}, {"text": "VALOR PAGO R$", "x": 1897.0, "y": 2420.0, "h": 73.0, "w": 376.0}, {"text": "37,66", "x": 2123.0, "y": 2484.0, "h": 59.0, "w": 144.0}, {"text": "PGDN", "x": 2652.0, "y": 0.0, "h": 42.0, "w": 146.0}, {"text": "Fn", "x": 2712.0, "y": 277.0, "h": 72.0, "w": 109.0}]

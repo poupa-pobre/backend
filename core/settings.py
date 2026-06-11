@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "apps.patrimonio",
     "apps.dashboard",
     "apps.relatorios",
+    "apps.importacao",
 ]
 
 # Login por email — custom user model (definido antes da 1ª migração de domínio).
@@ -188,3 +189,10 @@ DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="no-reply@poupar-pobre.lo
 FRONTEND_PASSWORD_RESET_URL = env(
     "FRONTEND_PASSWORD_RESET_URL", default="http://localhost:8000/reset-senha"
 )
+
+# --- Scanner de cupom / NFC-e (RF-022..025) ----------------------------------
+# Quando o QR da NFC-e é lido, o backend tenta buscar os itens estruturados no
+# portal da SEFAZ (muito mais confiável que o OCR). Falhando, cai no parser do
+# texto do OCR. Pode ser desligado em prod via .env se o portal estiver instável.
+NFCE_FETCH_ENABLED = env.bool("NFCE_FETCH_ENABLED", default=True)
+NFCE_FETCH_TIMEOUT = env.int("NFCE_FETCH_TIMEOUT", default=8)

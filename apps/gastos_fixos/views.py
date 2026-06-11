@@ -102,3 +102,30 @@ class GastoFixoMensalViewSet(
             ]
         )
         return Response(self.get_serializer(mensal).data)
+
+    @action(detail=True, methods=["post"])
+    def desmarcar(self, request, pk=None):
+        """Reverte o check (marcou errado): volta a pendente/atrasado e limpa o
+        pagamento (data, hora e o `valor_real` informado no tipo B)."""
+        mensal = self.get_object()
+        if mensal.status != GastoFixoMensal.Status.PAGO:
+            return Response(
+                {"detail": "Este gasto fixo não está pago."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+        mensal.valor_real = None
+        mensal.data_pagamento = None
+        mensal.checked_at = None
+        mensal.status = GastoFixoMensal.Status.PENDENTE
+        if mensal.esta_atrasado():
+            mensal.status = GastoFixoMensal.Status.ATRASADO
+        mensal.save(
+            update_fields=[
+                "valor_real",
+                "status",
+                "data_pagamento",
+                "checked_at",
+                "updated_at",
+            ]
+        )
+        return Response(self.get_serializer(mensal).data)
