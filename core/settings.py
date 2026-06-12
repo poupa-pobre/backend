@@ -148,6 +148,11 @@ DATETIME_FORMAT = "d/m/Y H:i"
 
 STATIC_URL = "static/"
 
+# Mídia enviada pelo usuário (comprovantes de gasto, etc.). Em DEBUG o próprio
+# runserver serve MEDIA_URL (ver core/urls.py); em produção fica atrás do nginx.
+MEDIA_URL = "media/"
+MEDIA_ROOT = BASE_DIR / "media"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/6.0/ref/settings/#default-auto-field
 

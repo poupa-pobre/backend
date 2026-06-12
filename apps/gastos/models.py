@@ -75,6 +75,12 @@ class Gasto(OwnedModel):
         "valor do vinculado", max_digits=12, decimal_places=2, null=True, blank=True
     )
     observacao = models.TextField("observação", null=True, blank=True)
+    comprovante = models.ImageField(
+        "comprovante",
+        upload_to="comprovantes/%Y/%m/",
+        null=True,
+        blank=True,
+    )
     origem = models.CharField(
         "origem", max_length=10, choices=Origem.choices, default=Origem.MANUAL
     )

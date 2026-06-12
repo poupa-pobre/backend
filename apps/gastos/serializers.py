@@ -68,6 +68,7 @@ class GastoSerializer(serializers.ModelSerializer):
             "valor_dono",
             "valor_vinculado",
             "observacao",
+            "comprovante",
             "origem",
             "tags",
             "compra_detalhada",
