@@ -68,6 +68,35 @@ POSTGRES_HOST=localhost python manage.py test --keepdb
 
 ---
 
+### Produção (Docker Compose)
+
+Usa `docker-compose.prod.yml` + `.env.production`, atrás de um
+[`nginx-proxy`](https://github.com/nginx-proxy/nginx-proxy) +
+`acme-companion` (TLS automático) já rodando na rede externa `nginx-proxy`.
+
+```bash
+cd backend
+cp .env.production.example .env.production   # preencha segredos + domínio
+docker compose -f docker-compose.prod.yml up -d --build
+```
+
+O `entrypoint.sh` roda `collectstatic` + `migrate` e sobe o **gunicorn** (não o
+runserver). Os estáticos do admin/DRF saem pelo **WhiteNoise**. Ajuste
+`VIRTUAL_HOST`/`LETSENCRYPT_HOST` no compose para o domínio real da API.
+
+Criar o superusuário:
+
+```bash
+docker compose -f docker-compose.prod.yml exec api python manage.py createsuperuser
+```
+
+> **Jobs mensais** (`gerar_gastos_fixos`, `marcar_atrasos`,
+> `gerar_snapshot_patrimonio`): este backend não usa Celery — agende-os no cron
+> do host, ex.:
+> `docker compose -f docker-compose.prod.yml exec -T api python manage.py gerar_gastos_fixos`.
+
+---
+
 ## 2) Mobile (Expo)
 
 ```bash

@@ -1,0 +1,51 @@
+services:
+  db:
+    image: postgres:16
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    env_file:
+      - .env.production
+    # Sem `ports`: o banco só é acessível pela rede interna `backend`.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - backend
+
+  api:
+    build: .
+    command: /app/entrypoint.sh
+    restart: always
+    volumes:
+      - static_data:/app/staticfiles
+      - media_data:/app/media
+    expose:
+      - "8000"
+    env_file:
+      - .env.production
+    environment:
+      # Ajuste para o domínio real da API; o nginx-proxy + letsencrypt-companion
+      # roteiam e emitem o certificado a partir destas variáveis.
+      - VIRTUAL_HOST=api.poupapobre.rudyson.com.br
+      - LETSENCRYPT_HOST=api.poupapobre.rudyson.com.br
+      - VIRTUAL_PORT=8000
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - backend
+      - nginx-proxy
+
+volumes:
+  postgres_data:
+  static_data:
+  media_data:
+
+networks:
+  backend:
+    driver: bridge
+  nginx-proxy:
+    external: true

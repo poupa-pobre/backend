@@ -17,12 +17,15 @@ env = environ.Env(
     DEBUG=(bool, False),
     ALLOWED_HOSTS=(list, []),
     CORS_ALLOWED_ORIGINS=(list, []),
+    CSRF_TRUSTED_ORIGINS=(list, []),
 )
 environ.Env.read_env(BASE_DIR / ".env")
 
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 DEBUG = env("DEBUG")
 ALLOWED_HOSTS = env("ALLOWED_HOSTS")
+# Domínios https confiáveis para o CSRF do admin atrás do proxy (ex.: https://api.exemplo.com.br).
+CSRF_TRUSTED_ORIGINS = env("CSRF_TRUSTED_ORIGINS")
 
 
 # Application definition
@@ -62,6 +65,8 @@ AUTH_USER_MODEL = "usuarios.Usuario"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    # Serve os estáticos coletados em produção (admin/DRF browsable) sem nginx.
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "corsheaders.middleware.CorsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -147,11 +152,23 @@ DATETIME_FORMAT = "d/m/Y H:i"
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = "static/"
+# Destino do `collectstatic` em produção; servido pelo WhiteNoise.
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
-# Mídia enviada pelo usuário (comprovantes de gasto, etc.). Em DEBUG o próprio
-# runserver serve MEDIA_URL (ver core/urls.py); em produção fica atrás do nginx.
+# Mídia enviada pelo usuário (comprovantes de gasto, etc.), servida por
+# core/urls.py tanto em dev quanto em prod (escala de app pessoal).
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
+
+# WhiteNoise: comprime e versiona os estáticos coletados (cache longo no proxy).
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/6.0/ref/settings/#default-auto-field
@@ -189,6 +206,12 @@ CORS_ALLOW_ALL_ORIGINS = DEBUG
 EMAIL_BACKEND = env(
     "EMAIL_BACKEND", default="django.core.mail.backends.console.EmailBackend"
 )
+# Credenciais SMTP (usadas quando EMAIL_BACKEND aponta para o backend smtp em prod).
+EMAIL_HOST = env("EMAIL_HOST", default="localhost")
+EMAIL_PORT = env.int("EMAIL_PORT", default=25)
+EMAIL_USE_TLS = env.bool("EMAIL_USE_TLS", default=False)
+EMAIL_HOST_USER = env("EMAIL_HOST_USER", default="")
+EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default="")
 DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="no-reply@poupar-pobre.local")
 # URL do cliente (mobile/web) que recebe uid+token e abre a tela de nova senha.
 FRONTEND_PASSWORD_RESET_URL = env(
@@ -201,3 +224,11 @@ FRONTEND_PASSWORD_RESET_URL = env(
 # texto do OCR. Pode ser desligado em prod via .env se o portal estiver instável.
 NFCE_FETCH_ENABLED = env.bool("NFCE_FETCH_ENABLED", default=True)
 NFCE_FETCH_TIMEOUT = env.int("NFCE_FETCH_TIMEOUT", default=8)
+
+# --- Segurança em produção ---------------------------------------------------
+# Ativado só com DEBUG=False (prod). O TLS é terminado no nginx-proxy/letsencrypt,
+# então confiamos no cabeçalho X-Forwarded-Proto e marcamos os cookies como seguros.
+if not DEBUG:
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True

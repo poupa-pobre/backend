@@ -16,7 +16,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+# Garante o bit de execução do entrypoint de produção e os diretórios servidos.
+RUN chmod +x /app/entrypoint.sh && mkdir -p /app/staticfiles /app/media
+
 EXPOSE 8000
 
-# O compose sobrescreve com runserver em dev; este é o default de produção.
+# O compose de dev sobrescreve com runserver; o de prod chama o entrypoint.sh.
 CMD ["gunicorn", "core.wsgi:application", "--bind", "0.0.0.0:8000"]

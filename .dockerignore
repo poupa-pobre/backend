@@ -1,0 +1,34 @@
+# Segredos / ambiente — nunca vão pra imagem
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Estáticos coletados / mídia local (montados como volume em prod)
+staticfiles/
+static/
+media/
+
+# Banco e caches locais
+db.sqlite3
+db.sqlite3-journal
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# VCS / editores / scratch
+.git/
+.gitignore
+.idea/
+.vscode/
+scratch/
+_*.txt
+debug_*.py
