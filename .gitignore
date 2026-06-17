@@ -18,6 +18,11 @@ db.sqlite3-journal
 /staticfiles/
 /static/
 
+# Scratch / saídas de debug
+scratch/
+_*.txt
+debug_*.py
+
 # Ferramentas / editores
 .mypy_cache/
 .pytest_cache/
