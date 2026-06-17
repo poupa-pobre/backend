@@ -49,3 +49,27 @@ class MovimentacaoDetectada(OwnedModel):
 
     def __str__(self):
         return f"{self.tipo} R$ {self.valor} ({self.status})"
+
+
+class Importacao(OwnedModel):
+    """Histórico de importações de arquivo OFX/CSV (RF-111, modelo-de-dados §11).
+
+    Registra cada importação concluída (auditoria); as transações em si viram
+    `Gasto`/`Receita` normais. A prévia (`previa`) não persiste nada.
+    """
+
+    class Formato(models.TextChoices):
+        OFX = "ofx", "OFX"
+        CSV = "csv", "CSV"
+
+    arquivo_nome = models.CharField("nome do arquivo", max_length=255)
+    formato = models.CharField("formato", max_length=5, choices=Formato.choices)
+    quantidade_transacoes = models.IntegerField("transações importadas", default=0)
+
+    class Meta:
+        verbose_name = "importação"
+        verbose_name_plural = "importações"
+        ordering = ["-created_at"]
+
+    def __str__(self):
+        return f"{self.arquivo_nome} ({self.quantidade_transacoes} transações)"

@@ -1,6 +1,8 @@
+from datetime import date
 from decimal import Decimal
 
 from django.contrib.auth import get_user_model
+from django.core.files.uploadedfile import SimpleUploadedFile
 from django.test import SimpleTestCase
 from django.urls import reverse
 from rest_framework import status
@@ -10,7 +12,8 @@ from apps.categorias.models import Categoria
 from apps.gastos.models import Gasto
 from apps.receitas.models import Receita
 
-from .models import MovimentacaoDetectada
+from .models import Importacao, MovimentacaoDetectada
+from .parsers import ArquivoInvalido, parsear_csv, parsear_ofx
 from .pix import identificar_banco, parsear_notificacao
 
 Usuario = get_user_model()
@@ -130,3 +133,130 @@ class CaixaRevisaoEndpointTest(APITestCase):
         self.client.force_authenticate(outro)
         resp = self.client.get(reverse("importacao:movimentacaodetectada-list"))
         self.assertEqual(len(resp.data["results"]), 0)
+
+
+OFX_EXEMPLO = """OFXHEADER:100
+<OFX><BANKMSGSRSV1><STMTTRNRS><STMTRS><BANKTRANLIST>
+<STMTTRN>
+<TRNTYPE>DEBIT
+<DTPOSTED>20240115120000[-3:GMT]
+<TRNAMT>-45.90
+<FITID>1
+<NAME>SUPERMERCADO BOM PRECO
+</STMTTRN>
+<STMTTRN>
+<TRNTYPE>CREDIT
+<DTPOSTED>20240120
+<TRNAMT>3000.00
+<FITID>2
+<MEMO>SALARIO EMPRESA XYZ
+</STMTTRN>
+</BANKTRANLIST></STMTRS></STMTTRNRS></BANKMSGSRSV1></OFX>
+"""
+
+
+class ParserOfxCsvTest(SimpleTestCase):
+    def test_ofx_extrai_gasto_e_receita(self):
+        t = parsear_ofx(OFX_EXEMPLO)
+        self.assertEqual(len(t), 2)
+        gasto, receita = t
+        self.assertEqual(gasto["tipo"], "gasto")
+        self.assertEqual(gasto["valor"], Decimal("45.90"))
+        self.assertEqual(gasto["data"], date(2024, 1, 15))
+        self.assertEqual(gasto["descricao"], "SUPERMERCADO BOM PRECO")
+        self.assertEqual(receita["tipo"], "receita")
+        self.assertEqual(receita["valor"], Decimal("3000.00"))
+        self.assertEqual(receita["data"], date(2024, 1, 20))
+
+    def test_ofx_sem_transacoes_levanta(self):
+        with self.assertRaises(ArquivoInvalido):
+            parsear_ofx("<OFX>nada aqui</OFX>")
+
+    def test_csv_com_cabecalho_ponto_virgula(self):
+        csv = "Data;Descrição;Valor\n15/01/2024;Farmácia;-30,50\n20/01/2024;Reembolso;100,00\n"
+        t = parsear_csv(csv)
+        self.assertEqual(len(t), 2)
+        self.assertEqual(t[0]["tipo"], "gasto")
+        self.assertEqual(t[0]["valor"], Decimal("30.50"))
+        self.assertEqual(t[0]["data"], date(2024, 1, 15))
+        self.assertEqual(t[1]["tipo"], "receita")
+
+    def test_csv_virgula_milhar_e_ponto_decimal(self):
+        csv = "date,memo,amount\n2024-02-01,Aluguel,-1234.56\n"
+        t = parsear_csv(csv)
+        self.assertEqual(t[0]["valor"], Decimal("1234.56"))
+
+
+class ImportacaoEndpointTest(APITestCase):
+    def setUp(self):
+        self.user = Usuario.objects.create_user(email="i@x.com", password="x", nome="I")
+        self.client.force_authenticate(self.user)
+        self.cat = Categoria.objects.create(usuario=self.user, nome="Mercado")
+
+    def _previa(self, conteudo, nome="extrato.ofx"):
+        arq = SimpleUploadedFile(nome, conteudo.encode("utf-8"))
+        return self.client.post(
+            reverse("importacao:importacao-previa"), {"arquivo": arq}, format="multipart"
+        )
+
+    def test_previa_ofx_lista_transacoes(self):
+        resp = self._previa(OFX_EXEMPLO)
+        self.assertEqual(resp.status_code, status.HTTP_200_OK, resp.data)
+        self.assertEqual(resp.data["quantidade"], 2)
+        self.assertEqual(resp.data["transacoes"][0]["tipo"], "gasto")
+        self.assertIn("duplicata", resp.data["transacoes"][0])
+
+    def test_previa_sugere_categoria_por_historico(self):
+        Gasto.objects.create(
+            usuario=self.user, descricao="SUPERMERCADO BOM PRECO", valor=Decimal("10"),
+            data=date(2023, 12, 1), categoria=self.cat, forma_pagamento="debito",
+        )
+        resp = self._previa(OFX_EXEMPLO)
+        self.assertEqual(resp.data["transacoes"][0]["categoria_sugerida"], self.cat.id)
+
+    def test_previa_marca_duplicata(self):
+        Gasto.objects.create(
+            usuario=self.user, descricao="SUPERMERCADO BOM PRECO", valor=Decimal("45.90"),
+            data=date(2024, 1, 15), categoria=self.cat, forma_pagamento="debito",
+        )
+        resp = self._previa(OFX_EXEMPLO)
+        self.assertTrue(resp.data["transacoes"][0]["duplicata"])
+
+    def test_previa_arquivo_invalido_400(self):
+        resp = self._previa("lixo sem transacao", nome="x.ofx")
+        self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_confirmar_cria_gastos_e_receitas(self):
+        payload = {
+            "arquivo_nome": "extrato.ofx",
+            "formato": "ofx",
+            "transacoes": [
+                {"data": "2024-01-15", "valor": "45.90", "descricao": "Mercado",
+                 "tipo": "gasto", "categoria": self.cat.id, "forma_pagamento": "debito"},
+                {"data": "2024-01-20", "valor": "3000.00", "descricao": "Salário",
+                 "tipo": "receita", "tipo_receita": "salario"},
+            ],
+        }
+        resp = self.client.post(
+            reverse("importacao:importacao-confirmar"), payload, format="json"
+        )
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        self.assertEqual(resp.data["criados"], {"gastos": 1, "receitas": 1})
+        self.assertEqual(Gasto.objects.filter(usuario=self.user).count(), 1)
+        rec = Receita.objects.get(usuario=self.user)
+        self.assertIsNotNone(rec.data_real)  # extrato = já realizado
+        self.assertEqual(Importacao.objects.filter(usuario=self.user).count(), 1)
+
+    def test_confirmar_credito_sem_cartao_cai_pra_debito(self):
+        payload = {
+            "formato": "csv",
+            "transacoes": [
+                {"data": "2024-01-15", "valor": "10.00", "descricao": "X",
+                 "tipo": "gasto", "categoria": self.cat.id, "forma_pagamento": "credito"},
+            ],
+        }
+        resp = self.client.post(
+            reverse("importacao:importacao-confirmar"), payload, format="json"
+        )
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        self.assertEqual(Gasto.objects.get(usuario=self.user).forma_pagamento, "debito")

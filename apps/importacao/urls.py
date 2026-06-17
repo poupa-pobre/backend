@@ -1,6 +1,6 @@
 from rest_framework.routers import DefaultRouter
 
-from .views import MovimentacaoDetectadaViewSet
+from .views import ImportacaoViewSet, MovimentacaoDetectadaViewSet
 
 app_name = "importacao"
 
@@ -10,5 +10,6 @@ router.register(
     MovimentacaoDetectadaViewSet,
     basename="movimentacaodetectada",
 )
+router.register(r"importacoes", ImportacaoViewSet, basename="importacao")
 
 urlpatterns = router.urls
