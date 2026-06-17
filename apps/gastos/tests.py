@@ -105,6 +105,27 @@ class GastoEndpointsTest(APITestCase):
         self.assertEqual(resp.data["mes_referencia"], "2026-03-01")
         self.assertEqual(resp.data["origem"], "manual")
 
+    def test_local_gps_opcional(self):
+        """Lat/long/nome do local são gravados e devolvidos quando enviados."""
+        resp = self.client.post(
+            reverse("gastos:gasto-list"),
+            self._payload(
+                latitude="-5.810000",
+                longitude="-35.210000",
+                local_nome="Extra - Av. Salgado Filho",
+            ),
+        )
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        self.assertEqual(resp.data["latitude"], "-5.810000")
+        self.assertEqual(resp.data["longitude"], "-35.210000")
+        self.assertEqual(resp.data["local_nome"], "Extra - Av. Salgado Filho")
+
+    def test_local_ausente_fica_nulo(self):
+        resp = self.client.post(reverse("gastos:gasto-list"), self._payload())
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        self.assertIsNone(resp.data["latitude"])
+        self.assertIsNone(resp.data["local_nome"])
+
     def test_credito_exige_cartao(self):
         resp = self.client.post(
             reverse("gastos:gasto-list"),
@@ -316,6 +337,160 @@ class ParserCupomTest(APITestCase):
         self.assertNotIn("Valor a Pagar R$", nomes)
         self.assertNotIn("CARTEIRA DIGITAL", nomes)
 
+    def test_codigo_grudado_e_separadores(self):
+        # Testa EAN grudado e separado por vírgula na descrição
+        texto1 = (
+            "001 7891152801842,BISCQITO CHOC 136G 1,000 UN x 3,79 3,79\n"
+            "002 7891152801842BISCQITO RECH 1 UN X 3,20 3,20\n"
+            "VALOR TOTAL R$ 6,99"
+        )
+        r = parsear_cupom(texto_ocr=texto1, buscar_online=False)
+        self.assertEqual(len(r["itens"]), 2)
+        
+        bisc1 = r["itens"][0]
+        self.assertEqual(bisc1["codigo"], "7891152801842")
+        self.assertEqual(bisc1["nome"], "BISCQITO CHOC 136G")
+        self.assertEqual(bisc1["quantidade"], 1.0)
+        self.assertEqual(bisc1["unidade"], "UN")
+        self.assertEqual(bisc1["valor_unitario"], 3.79)
+        self.assertEqual(bisc1["valor"], 3.79)
+        self.assertTrue(bisc1["identificado"])
+
+        bisc2 = r["itens"][1]
+        self.assertEqual(bisc2["codigo"], "7891152801842")
+        self.assertEqual(bisc2["nome"], "BISCQITO RECH")
+        self.assertEqual(bisc2["quantidade"], 1.0)
+        self.assertEqual(bisc2["unidade"], "UN")
+        self.assertEqual(bisc2["valor_unitario"], 3.20)
+        self.assertEqual(bisc2["valor"], 3.20)
+        self.assertTrue(bisc2["identificado"])
+
+    def test_fallback_robusto_e_ruido(self):
+        # Testa a extração heurística/fallback para linhas com ruído de OCR
+        texto2 = (
+            "BISC0ITO TCHOC 136G 1,000 UN 3,79\n"
+            "VALOR TOTAL R$ 3,79"
+        )
+        r = parsear_cupom(texto_ocr=texto2, buscar_online=False)
+        self.assertEqual(len(r["itens"]), 1)
+        item = r["itens"][0]
+        self.assertEqual(item["nome"], "BISC0ITO TCHOC 136G")
+        self.assertEqual(item["quantidade"], 1.0)
+        self.assertEqual(item["unidade"], "UN")
+        self.assertEqual(item["valor_unitario"], 3.79)
+        self.assertEqual(item["valor"], 3.79)
+        self.assertTrue(item["identificado"])
+
+    def test_sequencial_variacoes_e_ruidos(self):
+        # 1. Testar prefixos alfanuméricos como D02, U03, Q04, O01
+        # 2. Separadores alternativos de quantidade H, 8, - ou omitidos (ex: "1,000UN H 6,49", "0,678KG 8 12,99", "1,000UN 3,19 F")
+        # 3. Normalização de 4 casas decimais no valor unitário
+        # 4. Descarte de ruídos de rodapé comuns
+        texto = (
+            "MEDEIROSE MAIA LTDA\n"
+            "O01 7898908222050 BOLACHA JUCURUTU 250G MANTEIG\n"
+            "1.000UN H 6,49\n"
+            "U02 7891152801842 BISCOITO RECH RICHESTER 125G\n"
+            "1,000UN 3,1900 F\n"
+            "D03 826 PAO BOMDIA FRANCES KG\n"
+            "0,678KG 8 12,9900 F\n"
+            "004 ACHOCOLATADO EM PO ACHOCOLATI\n"
+            "1,000UN - 15,98\n"
+            "QTDE. TOTAL DE ITENS 4\n"
+            "VALOR TOTAL R$ 34,47\n"
+            "Fone:(89) 3661-362 I.€. :1.216-7\n"
+            "EngePDV 1.0.2\n"
+            "WegePDV 1.0\n"
+            "Troco R$ 11,03\n"
+            "Terminal: CAIXA03"
+        )
+        r = parsear_cupom(texto_ocr=texto, buscar_online=False)
+        self.assertEqual(len(r["itens"]), 4)
+        
+        # O01 -> bolacha
+        bolacha = r["itens"][0]
+        self.assertEqual(bolacha["nome"], "BOLACHA JUCURUTU 250G MANTEIG")
+        self.assertEqual(bolacha["quantidade"], 1.0)
+        self.assertEqual(bolacha["valor_unitario"], 6.49)
+        self.assertEqual(bolacha["valor"], 6.49)
+        self.assertTrue(bolacha["identificado"])
+
+        # U02 -> biscoito
+        biscoito = r["itens"][1]
+        self.assertEqual(biscoito["nome"], "BISCOITO RECH RICHESTER 125G")
+        self.assertEqual(biscoito["quantidade"], 1.0)
+        self.assertEqual(biscoito["valor_unitario"], 3.19)
+        self.assertEqual(biscoito["valor"], 3.19)
+        self.assertTrue(biscoito["identificado"])
+
+        # D03 -> pao
+        pao = r["itens"][2]
+        self.assertEqual(pao["nome"], "PAO BOMDIA FRANCES KG")
+        self.assertEqual(pao["quantidade"], 0.678)
+        self.assertEqual(pao["valor_unitario"], 12.99)
+        self.assertEqual(pao["valor"], 8.81)
+        self.assertTrue(pao["identificado"])
+
+        # 004 -> achocolatado
+        achoc = r["itens"][3]
+        self.assertEqual(achoc["nome"], "ACHOCOLATADO EM PO ACHOCOLATI")
+        self.assertEqual(achoc["quantidade"], 1.0)
+        self.assertEqual(achoc["valor_unitario"], 15.98)
+        self.assertEqual(achoc["valor"], 15.98)
+        self.assertTrue(achoc["identificado"])
+
+        # Verificação do total e se o rodapé foi limpo
+        self.assertEqual(r["total"], 34.47)
+        self.assertTrue(r["total_confere"])
+        
+        nomes = [i["nome"] for i in r["itens"]]
+        for nome in nomes:
+            self.assertNotIn("Fone", nome)
+            self.assertNotIn("EngePDV", nome)
+            self.assertNotIn("WegePDV", nome)
+            self.assertNotIn("Troco", nome)
+            self.assertNotIn("Terminal", nome)
+
+    def test_sequencial_ancora_itens_em_duas_linhas(self):
+        # Layout em 2 linhas físicas: a 1ª (com o sequencial) só tem desc+EAN,
+        # o valor/qtd vêm na 2ª. Ancorar no sequencial agrupa o bloco certinho.
+        texto = (
+            "SUPERMERCADO BOM PRECO LTDA\n"
+            "001 7891000100103 LEITE INTEGRAL PIRACANJUBA\n"
+            "1 UN X 4,99 4,99\n"
+            "002 7896005800010 CAFE TRADICIONAL 500G\n"
+            "2 UN X 12,50 25,00\n"
+            "003 ARROZ BRANCO TIPO 1\n"
+            "5 KG X 6,00 30,00\n"
+            "VALOR TOTAL R$ 59,99"
+        )
+        r = parsear_cupom(texto_ocr=texto, buscar_online=False)
+        self.assertEqual(len(r["itens"]), 3)
+        leite = r["itens"][0]
+        self.assertEqual(leite["nome"], "LEITE INTEGRAL PIRACANJUBA")
+        self.assertEqual(leite["codigo"], "7891000100103")
+        self.assertEqual(leite["quantidade"], 1.0)
+        self.assertEqual(leite["valor"], 4.99)
+        self.assertTrue(leite["identificado"])
+        cafe = r["itens"][1]
+        self.assertEqual(cafe["quantidade"], 2.0)
+        self.assertEqual(cafe["valor"], 25.00)
+        self.assertEqual(r["total"], 59.99)
+        self.assertTrue(r["total_confere"])
+
+    def test_sequencial_ignora_rodape_que_comeca_com_numero(self):
+        # Garante que linhas de rodapé não viram "item 4" só por estarem após.
+        texto = (
+            "001 7891234567890 PRODUTO A 1 UN X 10,00 10,00\n"
+            "002 7891234567891 PRODUTO B 1 UN X 5,00 5,00\n"
+            "VALOR TOTAL R$ 15,00\n"
+            "3 FORMAS DE PAGAMENTO ACEITAS"
+        )
+        r = parsear_cupom(texto_ocr=texto, buscar_online=False)
+        self.assertEqual(len(r["itens"]), 2)
+        nomes = " ".join(i["nome"] for i in r["itens"])
+        self.assertNotIn("FORMAS", nomes)
+
     def test_qr_extrai_chave_e_uf(self):
         url = "https://www.fazenda.sp.gov.br/nfce?p=35240612345678000190650010000123451000123456|2|1"
         r = parsear_cupom(texto_ocr="", url_qr=url, buscar_online=False)
@@ -330,6 +505,47 @@ class ParserCupomTest(APITestCase):
         nomes = [i["nome"] for i in r["itens"]]
         self.assertIn("PAO", nomes)
         self.assertNotIn("TROCO", nomes)
+
+    def test_cabecalho_de_colunas_nao_fecha_os_itens(self):
+        # O cabeçalho "...VL TOTAL" fica no topo, antes dos itens. Não pode ser
+        # confundido com o rodapé de total (senão corta os itens na largada e o
+        # total é lido do 1º item) — RN do parser, regressão de cupom NFC-e real.
+        texto = (
+            "#|COD|DESCRICAO|QTD|UN|VL UN|VL TOTAL\n"
+            "001 7891234567890 BOLACHA 250G 1 UN X 6,49 6,49\n"
+            "002 7891234567891 ARROZ 5KG 1 UN X 22,00 22,00\n"
+            "VALOR TOTAL R$ 28,49"
+        )
+        r = parsear_cupom(texto_ocr=texto, buscar_online=False)
+        self.assertEqual(len(r["itens"]), 2)
+        self.assertEqual(r["itens"][0]["nome"], "BOLACHA 250G")
+        self.assertEqual(r["total"], 28.49)
+        self.assertTrue(r["total_confere"])
+
+    def test_cabecalho_fundido_com_o_primeiro_item(self):
+        # A reconstrução por Y às vezes funde a linha do cabeçalho com o 1º item
+        # (ficam quase na mesma altura). Sem separar, o item abre com "#COD..." e
+        # não é ancorado → é perdido. Regressão de cupom NFC-e real (Natal-RN).
+        texto = (
+            "#|COD|DESCRICAO|QTD|UN|VL UN|VL TOTAL  001 7898908222050 BOLACHA 250G 1 UN X 6,49 6,49\n"
+            "002 7891152801842 ARROZ 5KG 1 UN X 22,00 22,00\n"
+            "VALOR TOTAL R$ 28,49"
+        )
+        r = parsear_cupom(texto_ocr=texto, buscar_online=False)
+        nomes = [i["nome"] for i in r["itens"]]
+        self.assertIn("BOLACHA 250G", nomes)
+        self.assertEqual(len(r["itens"]), 2)
+        self.assertTrue(r["total_confere"])
+
+    def test_rodape_embaralhado_pelo_ocr_nao_vira_item(self):
+        # OCR térmico embaralha as palavras do rodapé ("TROCO"→"Iroco",
+        # "DINHEIRO"→"Dirieiro"); a detecção fuzzy ainda as barra como item.
+        texto = "PAO FRANCES 3,20\nIroco R$ 0,00\nDirieiro 50,00"
+        r = parsear_cupom(texto_ocr=texto, buscar_online=False)
+        nomes = " ".join(i["nome"] for i in r["itens"])
+        self.assertIn("PAO", nomes)
+        self.assertNotIn("Iroco", nomes)
+        self.assertNotIn("Dirieiro", nomes)
 
 
 _HTML_NFCE = """
@@ -599,3 +815,4 @@ class CompraDetalhadaTest(APITestCase):
             reverse("gastos:gasto-list"), payload, format="json"
         )
         self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
+

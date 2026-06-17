@@ -84,6 +84,17 @@ class Gasto(OwnedModel):
     origem = models.CharField(
         "origem", max_length=10, choices=Origem.choices, default=Origem.MANUAL
     )
+    # Local da compra (GPS). Opcional: a pessoa pode buscar o lugar ou usar a
+    # localização atual. Guardamos coordenada + nome legível pra plotar no mapa.
+    latitude = models.DecimalField(
+        "latitude", max_digits=9, decimal_places=6, null=True, blank=True
+    )
+    longitude = models.DecimalField(
+        "longitude", max_digits=9, decimal_places=6, null=True, blank=True
+    )
+    local_nome = models.CharField(
+        "nome do local", max_length=160, null=True, blank=True
+    )
     tags = models.ManyToManyField(
         "categorias.Tag",
         through="GastoTag",
