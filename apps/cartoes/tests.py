@@ -303,3 +303,102 @@ class ComposicaoFaturaTest(APITestCase):
         self.assertEqual(resp.status_code, status.HTTP_200_OK, resp.data)
         fatura.refresh_from_db()
         self.assertEqual(fatura.valor_pago, Decimal("250.00"))
+
+
+class LimiteCartaoTest(APITestCase):
+    """RN-040: limite global do cartão e validação ao comprar/parcelar."""
+
+    def setUp(self):
+        from apps.categorias.models import Categoria
+
+        self.ana = criar_usuario("ana@x.com", "Ana")
+        self.client.force_authenticate(self.ana)
+        self.cartao = criar_cartao(self.ana, dia_fechamento=10, limite_total=Decimal("5500.00"))
+        self.categoria = Categoria.objects.create(usuario=self.ana, nome="Casa")
+
+    def _gasto_payload(self, valor, **extra):
+        base = {
+            "descricao": "Compra",
+            "valor": valor,
+            "data": "2026-05-05",
+            "categoria": self.categoria.id,
+            "forma_pagamento": "credito",
+            "cartao": self.cartao.id,
+        }
+        base.update(extra)
+        return base
+
+    def test_limite_helpers(self):
+        from .limite import limite_disponivel, limite_usado
+
+        self.assertEqual(limite_usado(self.cartao), Decimal("0.00"))
+        self.assertEqual(limite_disponivel(self.cartao), Decimal("5500.00"))
+
+    def test_comprar_5000_deixa_500_livre(self):
+        # Exemplo do usuário: 5500 livre, compra 5000 → sobra 500.
+        resp = self.client.post(reverse("gastos:gasto-list"), self._gasto_payload("5000.00"), format="json")
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        from .limite import limite_disponivel
+
+        self.assertEqual(limite_disponivel(self.cartao), Decimal("500.00"))
+        # O serializer do cartão também reflete o livre.
+        cresp = self.client.get(reverse("cartoes:cartao-detail", args=[self.cartao.id]))
+        self.assertEqual(cresp.data["limite_disponivel"], "500.00")
+
+    def test_compra_acima_do_limite_bloqueia(self):
+        self.client.post(reverse("gastos:gasto-list"), self._gasto_payload("5000.00"), format="json")
+        resp = self.client.post(reverse("gastos:gasto-list"), self._gasto_payload("600.00"), format="json")
+        self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
+        self.assertIn("Limite insuficiente", str(resp.data["valor"]))
+
+    def test_parcelamento_reserva_o_total(self):
+        # Parcelamento de 5000 em 5x reserva os 5000 inteiros no limite.
+        divida = {
+            "descricao": "TV",
+            "tipo": "parcelamento_cartao",
+            "valor_total": "5000.00",
+            "numero_parcelas": 5,
+            "valor_parcela": "1000.00",
+            "data_primeira_parcela": "2026-05-20",
+            "cartao": self.cartao.id,
+        }
+        resp = self.client.post(reverse("dividas:divida-list"), divida, format="json")
+        self.assertEqual(resp.status_code, status.HTTP_201_CREATED, resp.data)
+        from .limite import limite_disponivel
+
+        self.assertEqual(limite_disponivel(self.cartao), Decimal("500.00"))
+
+    def test_parcelamento_acima_do_limite_bloqueia(self):
+        divida = {
+            "descricao": "Carro",
+            "tipo": "parcelamento_cartao",
+            "valor_total": "6000.00",
+            "numero_parcelas": 6,
+            "valor_parcela": "1000.00",
+            "data_primeira_parcela": "2026-05-20",
+            "cartao": self.cartao.id,
+        }
+        resp = self.client.post(reverse("dividas:divida-list"), divida, format="json")
+        self.assertEqual(resp.status_code, status.HTTP_400_BAD_REQUEST)
+        self.assertIn("Limite insuficiente", str(resp.data["valor_total"]))
+
+    def test_pagar_parcela_libera_limite(self):
+        from apps.dividas.models import Parcela
+
+        from .limite import limite_disponivel
+
+        divida = {
+            "descricao": "TV",
+            "tipo": "parcelamento_cartao",
+            "valor_total": "5000.00",
+            "numero_parcelas": 5,
+            "valor_parcela": "1000.00",
+            "data_primeira_parcela": "2026-05-20",
+            "cartao": self.cartao.id,
+        }
+        self.client.post(reverse("dividas:divida-list"), divida, format="json")
+        self.assertEqual(limite_disponivel(self.cartao), Decimal("500.00"))
+        primeira = Parcela.objects.filter(divida__cartao=self.cartao).order_by("numero").first()
+        self.client.post(reverse("dividas:parcela-pagar", args=[primeira.id]))
+        # Uma parcela paga (1000) libera 1000 → 1500 livre.
+        self.assertEqual(limite_disponivel(self.cartao), Decimal("1500.00"))

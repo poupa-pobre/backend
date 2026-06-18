@@ -1,5 +1,6 @@
 from rest_framework import serializers
 
+from apps.cartoes.limite import formatar_brl, limite_disponivel
 from apps.cartoes.models import Cartao
 from apps.vinculos.models import Vinculo
 
@@ -112,6 +113,21 @@ class DividaSerializer(serializers.ModelSerializer):
                 raise serializers.ValidationError(
                     {"cartao": "Cartão é obrigatório no parcelamento de cartão."}
                 )
+            # RN-040/RN-050: o parcelamento reserva o **total** no limite do cartão.
+            valor_total = self._valor_efetivo(attrs, "valor_total")
+            if valor_total is not None:
+                ignorar = self.instance.id if self.instance is not None else None
+                disponivel = limite_disponivel(cartao, ignorar_divida=ignorar)
+                if valor_total > disponivel:
+                    raise serializers.ValidationError(
+                        {
+                            "valor_total": (
+                                f"Limite insuficiente no {cartao.nome}: livre "
+                                f"{formatar_brl(disponivel)}, este parcelamento "
+                                f"{formatar_brl(valor_total)}."
+                            )
+                        }
+                    )
         elif cartao is not None:
             raise serializers.ValidationError(
                 {"cartao": "Cartão só se aplica ao parcelamento de cartão."}

@@ -72,6 +72,12 @@ def compor_fatura(fatura):
 
     total = subtotal_fixos + subtotal_parcelas + subtotal_variaveis
 
+    # Limite é **global** (todos os meses não pagos + parcelas pendentes), não só
+    # o total deste mês — senão a fatura mostraria limite livre demais.
+    from .limite import limite_usado as _usado_global
+
+    usado = _usado_global(cartao)
+
     return {
         "fixos": fixos,
         "parcelas": parcelas,
@@ -83,6 +89,6 @@ def compor_fatura(fatura):
         },
         "total": total,
         "limite_total": cartao.limite_total,
-        "limite_usado": total,
-        "limite_disponivel": cartao.limite_total - total,
+        "limite_usado": usado,
+        "limite_disponivel": cartao.limite_total - usado,
     }

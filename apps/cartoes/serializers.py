@@ -1,9 +1,15 @@
 from rest_framework import serializers
 
+from .limite import limite_disponivel, limite_usado
 from .models import Cartao, Fatura
 
 
 class CartaoSerializer(serializers.ModelSerializer):
+    # Limite comprometido × livre — global (todos os meses não pagos + parcelas
+    # pendentes). Deriva ao vivo, pra o app mostrar quanto sobra ao comprar.
+    limite_usado = serializers.SerializerMethodField()
+    limite_disponivel = serializers.SerializerMethodField()
+
     class Meta:
         model = Cartao
         fields = [
@@ -11,10 +17,18 @@ class CartaoSerializer(serializers.ModelSerializer):
             "nome",
             "cor",
             "limite_total",
+            "limite_usado",
+            "limite_disponivel",
             "dia_fechamento",
             "dia_vencimento",
             "status",
         ]
+
+    def get_limite_usado(self, cartao):
+        return str(limite_usado(cartao))
+
+    def get_limite_disponivel(self, cartao):
+        return str(limite_disponivel(cartao))
 
 
 class FaturaSerializer(serializers.ModelSerializer):

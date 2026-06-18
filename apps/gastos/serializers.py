@@ -1,5 +1,6 @@
 from rest_framework import serializers
 
+from apps.cartoes.limite import formatar_brl, limite_disponivel
 from apps.cartoes.models import Cartao
 from apps.categorias.models import Categoria, Subcategoria, Tag
 from apps.vinculos.models import Vinculo
@@ -135,6 +136,7 @@ class GastoSerializer(serializers.ModelSerializer):
                 raise serializers.ValidationError(
                     {"cartao": "Cartão é obrigatório para gastos no crédito."}
                 )
+            self._validar_limite(cartao, attrs)
         elif cartao is not None:
             raise serializers.ValidationError(
                 {"cartao": "Cartão só se aplica a gastos no crédito."}
@@ -149,6 +151,24 @@ class GastoSerializer(serializers.ModelSerializer):
 
         self._validar_compartilhamento(attrs)
         return attrs
+
+    def _validar_limite(self, cartao, attrs):
+        """RN-040: a compra no crédito não pode estourar o limite disponível.
+        Na edição, ignora o próprio gasto pra não contá-lo duas vezes."""
+        valor = self._valor_efetivo(attrs, "valor")
+        if valor is None:
+            return
+        ignorar = self.instance.id if self.instance is not None else None
+        disponivel = limite_disponivel(cartao, ignorar_gasto=ignorar)
+        if valor > disponivel:
+            raise serializers.ValidationError(
+                {
+                    "valor": (
+                        f"Limite insuficiente no {cartao.nome}: livre "
+                        f"{formatar_brl(disponivel)}, esta compra {formatar_brl(valor)}."
+                    )
+                }
+            )
 
     def _validar_compartilhamento(self, attrs):
         """RN-021: compartilhado exige vínculo aceito e rateio que fecha o total."""
