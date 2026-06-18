@@ -197,6 +197,7 @@ class ImportacaoViewSet(
                     if t["tipo"] == "gasto"
                     else None
                 ),
+                "forma_sugerida": t.get("forma") if t["tipo"] == "gasto" else None,
             }
             itens.append(item)
 

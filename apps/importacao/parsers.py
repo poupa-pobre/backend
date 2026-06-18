@@ -77,6 +77,7 @@ def _normalizar(data, valor, descricao):
         "valor": abs(valor),
         "descricao": descricao,
         "tipo": "gasto" if valor < 0 else "receita",
+        "forma": None,  # sobrescrito pelo CSV quando há coluna de forma
     }
 
 
@@ -111,6 +112,32 @@ def parsear_ofx(conteudo):
 _COLS_DATA = ("data", "date", "dt")
 _COLS_VALOR = ("valor", "value", "amount", "montante", "vlr")
 _COLS_DESC = ("descri", "histor", "lancamento", "lançamento", "memo", "name", "title", "detalhe")
+# Coluna do "quem" (contraparte/estabelecimento) — ex.: PicPay "origem / destino".
+_COLS_ORIGEM = (
+    "origem", "destino", "contraparte", "favorecido", "benefici",
+    "estabelecimento", "pagador", "recebedor", "para / de", "para/de",
+)
+# Coluna do "o quê" (natureza da transação) — ex.: PicPay "tipo".
+_COLS_TIPO = ("tipo", "transa", "operac", "operaç")
+# Coluna da forma de pagamento — ex.: PicPay "Com cartão" / "Com saldo".
+_COLS_FORMA = ("forma", "pagamento", "meio", "metodo", "método")
+
+
+def _detectar_forma(tipo, forma):
+    """Sugere a forma de pagamento (pix/credito/debito/dinheiro) a partir do
+    `tipo` da transação e da coluna de forma — o Pix do `tipo` tem prioridade.
+    Devolve None quando não dá pra inferir (cai no padrão da tela)."""
+    t = (tipo or "").lower()
+    f = (forma or "").lower()
+    if "pix" in t:
+        return "pix"
+    if "dinheiro" in f or "espécie" in f or "especie" in f:
+        return "dinheiro"
+    if "cart" in f or "crédit" in f or "credit" in f:  # "Com cartão", "crédito"
+        return "credito"
+    if "saldo" in f or "débit" in f or "debit" in f or "conta" in f:
+        return "debito"
+    return None
 
 
 def _achar_coluna(cabecalho, candidatos):
@@ -134,23 +161,39 @@ def parsear_csv(conteudo):
     i_data = _achar_coluna(cabecalho, _COLS_DATA)
     i_valor = _achar_coluna(cabecalho, _COLS_VALOR)
     i_desc = _achar_coluna(cabecalho, _COLS_DESC)
+    i_origem = _achar_coluna(cabecalho, _COLS_ORIGEM)
+    i_tipo = _achar_coluna(cabecalho, _COLS_TIPO)
+    i_forma = _achar_coluna(cabecalho, _COLS_FORMA)
 
     if i_data is not None and i_valor is not None:
         corpo = linhas[1:]
     else:
         # Sem cabeçalho reconhecível: assume data, descrição, valor por posição.
         i_data, i_desc, i_valor = 0, 1, 2
+        i_origem = i_tipo = i_forma = None
         corpo = linhas
+
+    def _cel(linha, i):
+        return linha[i].strip() if i is not None and i < len(linha) else ""
+
+    def _descricao(linha):
+        # Banco padrão: coluna de descrição/histórico.
+        d = _cel(linha, i_desc)
+        if d:
+            return d
+        # Layout tipo PicPay: o melhor título é a contraparte/estabelecimento
+        # ("origem / destino"); quando vazia (ex.: "Compra realizada"), usa o tipo.
+        return _cel(linha, i_origem) or _cel(linha, i_tipo)
 
     transacoes = []
     for linha in corpo:
-        if max(i_data, i_valor, (i_desc or 0)) >= len(linha):
+        if i_data >= len(linha) or i_valor >= len(linha):
             continue
         data = _parsear_data(linha[i_data])
         valor = _parsear_valor(linha[i_valor])
-        descricao = linha[i_desc] if i_desc is not None and i_desc < len(linha) else ""
-        t = _normalizar(data, valor, descricao)
+        t = _normalizar(data, valor, _descricao(linha))
         if t:
+            t["forma"] = _detectar_forma(_cel(linha, i_tipo), _cel(linha, i_forma))
             transacoes.append(t)
     if not transacoes:
         raise ArquivoInvalido("Nenhuma transação válida no CSV.")

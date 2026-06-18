@@ -186,6 +186,31 @@ class ParserOfxCsvTest(SimpleTestCase):
         t = parsear_csv(csv)
         self.assertEqual(t[0]["valor"], Decimal("1234.56"))
 
+    def test_csv_picpay_titulo_da_origem_e_sinal_unicode(self):
+        # Layout PicPay: descrição vem de "origem / destino" (fallback "tipo"),
+        # valor com o sinal Unicode − (U+2212) e "R$ 2.658,49".
+        csv = (
+            'data,hora,tipo,"origem / destino",valor,"forma de pagamento"\n'
+            '2026-06-16,09:30,"Pagamento realizado",MIDWAY,"−R$ 74,50","Com cartão"\n'
+            '2026-06-13,20:13,"Compra realizada",,"−R$ 96,99","Com saldo"\n'
+            '2026-06-05,17:35,"Pagamento realizado","Fatura PicPay Card","−R$ 2.658,49","Com saldo"\n'
+            '2026-06-05,17:35,"Pix recebido","PAULO HOLANDA","+R$ 183,30",\n'
+        )
+        csv += '2026-06-08,10:52,"Pix enviado","NUBUS S/A","−R$ 37,45","Com cartão"\n'
+        t = parsear_csv(csv)
+        self.assertEqual(len(t), 5)
+        self.assertEqual(t[0]["descricao"], "MIDWAY")
+        self.assertEqual(t[0]["valor"], Decimal("74.50"))
+        self.assertEqual(t[0]["tipo"], "gasto")
+        self.assertEqual(t[0]["forma"], "credito")  # "Com cartão"
+        self.assertEqual(t[1]["descricao"], "Compra realizada")  # origem vazia → tipo
+        self.assertEqual(t[1]["forma"], "debito")  # "Com saldo"
+        self.assertEqual(t[2]["descricao"], "Fatura PicPay Card")
+        self.assertEqual(t[2]["valor"], Decimal("2658.49"))
+        self.assertEqual(t[3]["descricao"], "PAULO HOLANDA")
+        self.assertEqual(t[3]["tipo"], "receita")  # +valor
+        self.assertEqual(t[4]["forma"], "pix")  # tipo "Pix" vence o "Com cartão"
+
 
 class ImportacaoEndpointTest(APITestCase):
     def setUp(self):
